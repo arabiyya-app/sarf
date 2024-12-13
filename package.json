@@ -2,6 +2,15 @@
   "name": "@arabiyya/sarf",
   "module": "index.ts",
   "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bun build.ts"
+  },
   "devDependencies": {
     "@eslint/js": "^9.16.0",
     "@types/bun": "latest",
