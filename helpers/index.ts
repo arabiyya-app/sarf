@@ -1,5 +1,5 @@
 import getChapterById from './getChapterById'
-import hasMajhool from './isMajhool'
+import hasMajhool from './hasMajhool'
 import isMazeedFih from './isMazeedFih'
 import isMujarrad from './isMujarrad'
 import replaceRoots from './replaceRoots'
