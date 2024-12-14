@@ -1,5 +1,26 @@
 import type { Chapter, RootLetters } from '../types'
 
+/**
+ * Replaces the root letters of a given chapter.
+ *
+ * @param chapter - The chapter object
+ * @param rootLetters - Optional object specifying replacement letters for ف (first), ع (middle), and ل (last) root letters
+ * @returns A new chapter object with replaced root letters
+ * @remarks If no root letters are provided, it defaults to `chapter.root_letters[0].arabic`.
+ * @example
+ * ```typescript
+ * const original = sarf.sahih.nasara
+ * console.log(original.title) // فَعَلَ يَفْعُلُ
+ *
+ * // Use default root letters
+ * const nasara = sarfHelpers.replaceRoots(sarf.sahih.nasara)
+ * console.log(nasara.title) // نَصَرَ يَنْصُرُ
+ *
+ * // Specify custom root letter replacements
+ * const dakhala = sarfHelpers.replaceRoots(sarf.sahih.nasara, { ف: 'د', ع: 'خ', ل: 'ل' })
+ * console.log(dakhala.title) // دَخَلَ يَدْخُلُ
+ * ```
+ */
 const replaceRoots = (
   chapter: Chapter,
   rootLetters?: Partial<RootLetters['arabic']> | null,
