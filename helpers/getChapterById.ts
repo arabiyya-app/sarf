@@ -1,5 +1,6 @@
 import type { Chapter } from '../types'
 import sarf from '../sarf'
+
 /**
  * Retrieves a chapter by its unique identifier.
  *
@@ -10,7 +11,6 @@ import sarf from '../sarf'
  * const chapter = sarfHelpers.getChapterById('sahih/nasara')
  * ```
  */
-
 const getChapterById = (chapterId: string): Chapter | null => {
   const [type] = chapterId.split('/')
 
