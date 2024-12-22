@@ -36,7 +36,7 @@ const exportJson = async () => {
     return Object.entries(obj) as [keyof T, T[keyof T]][]
   }
 
-  // Export a copy of sarf with replaced roots
+  // Replace chapters with their replaced roots
   for (const [verbType, chapters] of entries(sarf)) {
     for (const [chapterKey, chapter] of entries(chapters)) {
       if (chapter) {
