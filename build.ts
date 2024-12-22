@@ -4,7 +4,7 @@ import dts from 'bun-plugin-dts'
 const outdir = './dist'
 
 const buildConfig: BuildConfig = {
-  entrypoints: ['./index.ts'],
+  entrypoints: ['./index.ts', './types.ts', './constants.ts'],
   outdir,
   minify: true,
   sourcemap: 'linked',
