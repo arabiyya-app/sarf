@@ -1,6 +1,8 @@
 import type { Chapter } from '../types'
 import sarf from '../sarf'
 
+type AnyString = string & {}
+
 /**
  * Retrieves all chapters for a given type
  *
@@ -12,7 +14,7 @@ import sarf from '../sarf'
  * ```
  */
 const getChaptersForType = (
-  type: keyof typeof sarf & string,
+  type: keyof typeof sarf | AnyString,
 ): (Chapter | null)[] => {
   if (type in sarf) {
     const verbType = type as keyof typeof sarf
