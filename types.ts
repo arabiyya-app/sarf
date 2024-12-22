@@ -1,10 +1,4 @@
-export const TYPES = {
-  sahih: { arabic: 'صحيح', transliterated: 'sahih' },
-  ajwaf: { arabic: 'أجوف', transliterated: 'ajwaf' },
-  naaqis: { arabic: 'ناقص', transliterated: 'naaqis' },
-  mithaal: { arabic: 'مثال', transliterated: 'mithaal' },
-  "mudaa'af": { arabic: 'مضاعف', transliterated: "mudaa'af" },
-} as const
+import type { SARF_TYPES } from './constants'
 
 export type Chapter = MajhoolChapter | NonMajhoolChapter
 
@@ -13,7 +7,7 @@ export type NonMajhoolChapter = BaseChapter<false>
 
 type BaseChapter<Majhool extends boolean = true> = {
   id: ChapterId
-  type: Type
+  type: SarfType
   form: { number: FormNumber; roman: RomanNumber; english: EnglishNumber }
   chapter: { arabic: ArabicChapter; transliterated: TransliteratedChapter }
   /** E.g. فَعَلَ يَفْعُلُ */
@@ -49,9 +43,9 @@ type BaseChapter<Majhool extends boolean = true> = {
 }
 
 /** E.g. "sahih/nasara", "sahih/2", etc... */
-export type ChapterId = `${keyof typeof TYPES}/${string}`
+export type ChapterId = `${keyof typeof SARF_TYPES}/${string}`
 
-export type Type = (typeof TYPES)[keyof typeof TYPES]
+export type SarfType = (typeof SARF_TYPES)[keyof typeof SARF_TYPES]
 
 export type FormNumber = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
 
@@ -210,3 +204,8 @@ export type IsmMafool = {
     جَمْع: string
   }
 }
+
+export type Sarf = Record<
+  keyof typeof SARF_TYPES,
+  Record<string, Chapter | null>
+>
