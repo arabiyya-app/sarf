@@ -8,7 +8,10 @@
     "arabic",
     "morphology"
   ],
-  "repository": "github:arabiyya-app/sarf",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arabiyya-app/sarf.git"
+  },
   "homepage": "https://github.com/arabiyya-app/sarf",
   "bugs": {
     "url": "https://github.com/arabiyya-app/sarf/issues",
