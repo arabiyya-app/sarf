@@ -14,22 +14,22 @@ import mudaaafForm8 from './8'
 // import mudaaafForm9 from "./9"
 import mudaaafForm10 from './10'
 
-const mudaaaf = {
-  nasara: mudaaafNasara,
-  daraba: mudaaafDaraba,
-  fataha: mudaaafFataha,
-  "sami'a": null,
-  hasiba: null,
-  karuma: null,
-  '2': mudaaafForm2,
-  '3': mudaaafForm3,
-  '4': mudaaafForm4,
-  '5': mudaaafForm5,
-  '6': mudaaafForm6,
-  '7': mudaaafForm7,
-  '8': mudaaafForm8,
-  '9': null,
-  '10': mudaaafForm10,
-} satisfies Record<string, Chapter | null>
+const mudaaaf = new Map<string, Chapter | null>([
+  ['nasara', mudaaafNasara],
+  ['daraba', mudaaafDaraba],
+  ['fataha', mudaaafFataha],
+  ["sami'a", null],
+  ['hasiba', null],
+  ['karuma', null],
+  ['2', mudaaafForm2],
+  ['3', mudaaafForm3],
+  ['4', mudaaafForm4],
+  ['5', mudaaafForm5],
+  ['6', mudaaafForm6],
+  ['7', mudaaafForm7],
+  ['8', mudaaafForm8],
+  ['9', null],
+  ['10', mudaaafForm10],
+])
 
 export default mudaaaf

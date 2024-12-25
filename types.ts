@@ -205,7 +205,4 @@ export type IsmMafool = {
   }
 }
 
-export type Sarf = Record<
-  keyof typeof SARF_TYPES,
-  Record<string, Chapter | null>
->
+export type Sarf = Map<keyof typeof SARF_TYPES, Map<string, Chapter | null>>

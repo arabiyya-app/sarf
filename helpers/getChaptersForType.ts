@@ -2,6 +2,7 @@ import type { Chapter } from '../types'
 import sarf from '../sarf'
 
 type AnyString = string & {}
+type KeyOfMap<T> = T extends Map<infer K, unknown> ? K : never
 
 /**
  * Retrieves all chapters for a given type
@@ -14,14 +15,10 @@ type AnyString = string & {}
  * ```
  */
 const getChaptersForType = (
-  type: keyof typeof sarf | AnyString,
+  type: KeyOfMap<typeof sarf> | AnyString,
 ): (Chapter | null)[] => {
-  if (type in sarf) {
-    const verbType = type as keyof typeof sarf
-    const chapters = Object.values(sarf[verbType])
-    return chapters
-  }
-
+  const verbType = sarf.get(type as KeyOfMap<typeof sarf>)
+  if (verbType) return Array.from(verbType.values())
   return []
 }
 

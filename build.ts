@@ -28,25 +28,33 @@ const exportJson = async () => {
 
   const { sarf, sarfHelpers } = await import('./index')
 
-  // Export sarf as-is
-  await Bun.write(`${outdir}/sarf.json`, JSON.stringify(sarf))
-
-  // Utility for type-safe Object.entries()
-  const entries = <T extends object>(obj: T): [keyof T, T[keyof T]][] => {
-    return Object.entries(obj) as [keyof T, T[keyof T]][]
+  // Helper to convert a Map to an object
+  // This is needed because you can't JSON.stringify a Map
+  const mapToObject = (map: Map<string, unknown>): object => {
+    const obj: Record<string, unknown> = {}
+    for (const [key, value] of map) {
+      obj[key] = value instanceof Map ? mapToObject(value) : value
+    }
+    return obj
   }
 
+  // Export sarf as-is
+  await Bun.write(`${outdir}/sarf.json`, JSON.stringify(mapToObject(sarf)))
+
   // Replace chapters with their replaced roots
-  for (const [verbType, chapters] of entries(sarf)) {
-    for (const [chapterKey, chapter] of entries(chapters)) {
+  for (const chapters of sarf.values()) {
+    for (const [chapterKey, chapter] of chapters.entries()) {
       if (chapter) {
-        sarf[verbType][chapterKey] = sarfHelpers.replaceRoots(chapter)
+        chapters.set(chapterKey, sarfHelpers.replaceRoots(chapter))
       }
     }
   }
 
   // Export a copy of sarf with replaced roots
-  await Bun.write(`${outdir}/sarf-archetypes.json`, JSON.stringify(sarf))
+  await Bun.write(
+    `${outdir}/sarf-archetypes.json`,
+    JSON.stringify(mapToObject(sarf)),
+  )
 
   console.timeLog('JSON export')
 }

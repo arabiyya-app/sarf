@@ -17,22 +17,22 @@ import sahihForm8 from './8'
 import sahihForm9 from './9'
 import sahihForm10 from './10'
 
-const sahih = {
-  nasara: sahihNasara,
-  daraba: sahihDaraba,
-  fataha: sahihFataha,
-  "sami'a": sahihSamia,
-  hasiba: sahihHasiba,
-  karuma: sahihKaruma,
-  '2': sahihForm2,
-  '3': sahihForm3,
-  '4': sahihForm4,
-  '5': sahihForm5,
-  '6': sahihForm6,
-  '7': sahihForm7,
-  '8': sahihForm8,
-  '9': sahihForm9,
-  '10': sahihForm10,
-} satisfies Record<string, Chapter | null>
+const sahih = new Map<string, Chapter | null>([
+  ['nasara', sahihNasara],
+  ['daraba', sahihDaraba],
+  ['fataha', sahihFataha],
+  ["sami'a", sahihSamia],
+  ['hasiba', sahihHasiba],
+  ['karuma', sahihKaruma],
+  ['2', sahihForm2],
+  ['3', sahihForm3],
+  ['4', sahihForm4],
+  ['5', sahihForm5],
+  ['6', sahihForm6],
+  ['7', sahihForm7],
+  ['8', sahihForm8],
+  ['9', sahihForm9],
+  ['10', sahihForm10],
+])
 
 export default sahih

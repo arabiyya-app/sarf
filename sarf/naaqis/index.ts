@@ -15,22 +15,22 @@ import naaqisForm8 from './8'
 // import naaqisForm9 from './9'
 import naaqisForm10 from './10'
 
-const naaqis = {
-  nasara: naaqisNasara,
-  daraba: naaqisDaraba,
-  fataha: naaqisFataha,
-  "sami'a": naaqisSamia,
-  hasiba: null,
-  karuma: null,
-  '2': naaqisForm2,
-  '3': naaqisForm3,
-  '4': naaqisForm4,
-  '5': naaqisForm5,
-  '6': naaqisForm6,
-  '7': naaqisForm7,
-  '8': naaqisForm8,
-  '9': null,
-  '10': naaqisForm10,
-} satisfies Record<string, Chapter | null>
+const naaqis = new Map<string, Chapter | null>([
+  ['nasara', naaqisNasara],
+  ['daraba', naaqisDaraba],
+  ['fataha', naaqisFataha],
+  ["sami'a", naaqisSamia],
+  ['hasiba', null],
+  ['karuma', null],
+  ['2', naaqisForm2],
+  ['3', naaqisForm3],
+  ['4', naaqisForm4],
+  ['5', naaqisForm5],
+  ['6', naaqisForm6],
+  ['7', naaqisForm7],
+  ['8', naaqisForm8],
+  ['9', null],
+  ['10', naaqisForm10],
+])
 
 export default naaqis
