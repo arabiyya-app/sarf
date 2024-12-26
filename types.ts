@@ -1,4 +1,4 @@
-import type { SARF_TYPES } from './constants'
+import type { ARABIC_PRONOUNS, SARF_TYPES } from './constants'
 
 export type Chapter = MajhoolChapter | NonMajhoolChapter
 
@@ -156,23 +156,7 @@ export type EnglishVerb =
           }
     }
 
-export type Tasreef = {
-  هُوَ: string
-  هُمَا: {
-    مُذَكَّر: string
-    مُؤَنَّث: string
-  }
-  هُمْ: string
-  هِيَ: string
-  هُنَّ: string
-  أَنْتَ: string
-  أَنْتُمَا: string
-  أَنْتُمْ: string
-  أَنْتِ: string
-  أَنْتُنَّ: string
-  أَنَا: string
-  نَحْنُ: string
-}
+export type Tasreef = Record<(typeof ARABIC_PRONOUNS)[number], string>
 
 export type AmrTasreef = Pick<
   Tasreef,
