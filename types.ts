@@ -1,4 +1,4 @@
-import type { ARABIC_PRONOUNS, SARF_TYPES } from './constants'
+import type { ARABIC_PRONOUNS, SARF_FORMS, SARF_TYPES } from './constants'
 
 export type Chapter = MajhoolChapter | NonMajhoolChapter
 
@@ -8,7 +8,7 @@ export type NonMajhoolChapter = BaseChapter<false>
 type BaseChapter<Majhool extends boolean = true> = {
   id: ChapterId
   type: SarfType
-  form: { number: FormNumber; roman: RomanNumber; english: EnglishNumber }
+  form: SarfForm
   chapter: { arabic: ArabicChapter; transliterated: TransliteratedChapter }
   /** E.g. فَعَلَ يَفْعُلُ */
   title: string
@@ -47,36 +47,7 @@ export type ChapterId = `${keyof typeof SARF_TYPES}/${string}`
 
 export type SarfType = (typeof SARF_TYPES)[keyof typeof SARF_TYPES]
 
-export type FormNumber = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
-
-export type RomanNumber =
-  | 'I'
-  | 'II'
-  | 'III'
-  | 'IV'
-  | 'V'
-  | 'VI'
-  | 'VII'
-  | 'VIII'
-  | 'IX'
-  | 'X'
-
-export type EnglishNumber =
-  | '1a'
-  | '1b'
-  | '1c'
-  | '1d'
-  | '1e'
-  | '1f'
-  | '2'
-  | '3'
-  | '4'
-  | '5'
-  | '6'
-  | '7'
-  | '8'
-  | '9'
-  | '10'
+export type SarfForm = (typeof SARF_FORMS)[keyof typeof SARF_FORMS]
 
 export type ArabicChapter =
   | 'نَصَرَ'
