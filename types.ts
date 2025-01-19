@@ -100,7 +100,12 @@ export type EnglishVerb =
           }
     }
 
-export type Tasreef = Record<(typeof ARABIC_PRONOUNS)[number], string>
+export type TasreefPronoun =
+  | Exclude<(typeof ARABIC_PRONOUNS)[number], 'هُمَا'>
+  | 'هُمَا_مُذَكَّر'
+  | 'هُمَا_مُؤَنَّث'
+
+export type Tasreef = Record<TasreefPronoun, string>
 
 export type AmrTasreef = Pick<
   Tasreef,
