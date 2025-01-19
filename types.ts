@@ -1,4 +1,9 @@
-import type { ARABIC_PRONOUNS, SARF_FORMS, SARF_TYPES } from './constants'
+import type {
+  ARABIC_PRONOUNS,
+  SARF_CHAPTERS,
+  SARF_FORMS,
+  SARF_TYPES,
+} from './constants'
 
 export type Chapter = MajhoolChapter | NonMajhoolChapter
 
@@ -9,7 +14,7 @@ type BaseChapter<Majhool extends boolean = true> = {
   id: ChapterId
   type: SarfType
   form: SarfForm
-  chapter: { arabic: ArabicChapter; transliterated: TransliteratedChapter }
+  chapter: SarfChapter
   /** E.g. فَعَلَ يَفْعُلُ */
   title: string
   root_letters: RootLetters[]
@@ -49,39 +54,7 @@ export type SarfType = (typeof SARF_TYPES)[keyof typeof SARF_TYPES]
 
 export type SarfForm = (typeof SARF_FORMS)[keyof typeof SARF_FORMS]
 
-export type ArabicChapter =
-  | 'نَصَرَ'
-  | 'ضَرَبَ'
-  | 'فَتَحَ'
-  | 'سَمِعَ'
-  | 'حَسِبَ'
-  | 'كَرُمَ'
-  | 'تَفْعِيْل'
-  | 'مُفَاعَلَة'
-  | 'إِفْعَال'
-  | 'تَفَعُّل'
-  | 'تَفَاعُل'
-  | 'انْفِعَال'
-  | 'افْتِعَال'
-  | 'افْعِلَال'
-  | 'اسْتِفْعَال'
-
-export type TransliteratedChapter =
-  | 'nasara'
-  | 'daraba'
-  | 'fataha'
-  | "sami'a"
-  | 'hasiba'
-  | 'karuma'
-  | "taf'eel"
-  | "mufaa'ala"
-  | "if'aal"
-  | "tafa'ul"
-  | "tafaa'ul"
-  | "infi'aal"
-  | "ifti'aal"
-  | "if'ilaal"
-  | "istif'aal"
+export type SarfChapter = (typeof SARF_CHAPTERS)[keyof typeof SARF_CHAPTERS]
 
 export type RootLetters = {
   arabic: { ف: string; ع: string; ل: string }

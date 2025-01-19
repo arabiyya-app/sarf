@@ -99,3 +99,21 @@ export const SARF_FORMS = {
     english: '10',
   },
 } as const
+
+export const SARF_CHAPTERS = [
+  { arabic: 'نَصَرَ', transliterated: 'nasara' },
+  { arabic: 'ضَرَبَ', transliterated: 'daraba' },
+  { arabic: 'فَتَحَ', transliterated: 'fataha' },
+  { arabic: 'سَمِعَ', transliterated: "sami'a" },
+  { arabic: 'حَسِبَ', transliterated: 'hasiba' },
+  { arabic: 'كَرُمَ', transliterated: 'karuma' },
+  { arabic: 'تَفْعِيْل', transliterated: "taf'eel" },
+  { arabic: 'مُفَاعَلَة', transliterated: "mufaa'ala" },
+  { arabic: 'إِفْعَال', transliterated: "if'aal" },
+  { arabic: 'تَفَعُّل', transliterated: "tafa'ul" },
+  { arabic: 'تَفَاعُل', transliterated: "tafaa'ul" },
+  { arabic: 'انْفِعَال', transliterated: "infi'aal" },
+  { arabic: 'افْتِعَال', transliterated: "ifti'aal" },
+  { arabic: 'افْعِلَال', transliterated: "if'ilaal" },
+  { arabic: 'اسْتِفْعَال', transliterated: "istif'aal" },
+]
