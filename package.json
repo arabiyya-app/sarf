@@ -48,6 +48,7 @@
     }
   },
   "scripts": {
+    "prebuild": "rimraf dist",
     "build": "bun build.ts",
     "prepublishOnly": "bun run build"
   },
