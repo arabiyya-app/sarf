@@ -1,5 +1,7 @@
 import type { Chapter, RootLetters } from '../types'
 
+import chapterExists from './chapterExists'
+
 /**
  * Replaces the root letters of a given chapter.
  *
@@ -21,10 +23,14 @@ import type { Chapter, RootLetters } from '../types'
  * console.log(dakhala.title) // دَخَلَ يَدْخُلُ
  * ```
  */
-const replaceRoots = (
-  chapter: Chapter,
+const replaceRoots = <T extends Chapter<boolean>>(
+  chapter: T,
   rootLetters?: Partial<RootLetters['arabic']> | null,
-): Chapter => {
+): T => {
+  if (chapterExists(chapter) === false) {
+    return chapter
+  }
+
   if (!rootLetters) {
     rootLetters = chapter.root_letters[0].arabic
   }

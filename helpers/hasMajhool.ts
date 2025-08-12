@@ -11,7 +11,7 @@ import type { Chapter, MajhoolChapter } from '../types'
  * const sahihForm7HasPassiveVoice = sarfHelpers.hasMajhool(sarf.sahih[7]) // false
  * ```
  */
-const hasMajhool = (chapter: Chapter): chapter is MajhoolChapter => {
+const hasMajhool = (chapter: Chapter): chapter is MajhoolChapter<true> => {
   return chapter['صرف صغير']['مجهول'] !== null
 }
 
