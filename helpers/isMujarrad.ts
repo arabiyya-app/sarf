@@ -11,7 +11,7 @@ import type { Chapter } from '../types'
  * const isForm2Mujarrad = sarfHelpers.isMujarrad(sarf.sahih['2']) // false
  * ```
  */
-const isMujarrad = (chapter: Chapter): boolean => {
+const isMujarrad = (chapter: Chapter<boolean>): boolean => {
   return chapter.form.number === 1
 }
 

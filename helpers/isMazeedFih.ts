@@ -12,7 +12,7 @@ import isMujarrad from './isMujarrad'
  * const isForm2MazeedFih = sarfHelpers.isMazeedFih(sarf.sahih['2']) // true
  * ```
  */
-const isMazeedFih = (chapter: Chapter): boolean => {
+const isMazeedFih = (chapter: Chapter<boolean>): boolean => {
   return !isMujarrad(chapter)
 }
 
