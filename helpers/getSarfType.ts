@@ -13,9 +13,7 @@ type AnyString = string & {}
  * const sarfType = sarfHelpers.getSarfType('sahih')
  * ```
  */
-const getSarfType = (
-  type?: keyof typeof SARF_TYPES | AnyString | null,
-): SarfType | null => {
+const getSarfType = (type?: keyof typeof SARF_TYPES | AnyString | null): SarfType | null => {
   if (!type) return null
 
   for (const sarfType of Object.values(SARF_TYPES)) {

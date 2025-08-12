@@ -23,10 +23,7 @@ import chapterExists from './chapterExists'
  * console.log(dakhala.title) // دَخَلَ يَدْخُلُ
  * ```
  */
-const replaceRoots = <T extends Chapter<boolean>>(
-  chapter: T,
-  rootLetters?: Partial<RootLetters['arabic']> | null,
-): T => {
+const replaceRoots = <T extends Chapter<boolean>>(chapter: T, rootLetters?: Partial<RootLetters['arabic']> | null): T => {
   if (chapterExists(chapter) === false) {
     return chapter
   }
@@ -48,11 +45,7 @@ const replaceRoots = <T extends Chapter<boolean>>(
 
 export default replaceRoots
 
-const replace = <T extends object>(
-  obj: T,
-  searchValue: string | RegExp,
-  replaceValue: Record<string, string | undefined>,
-) => {
+const replace = <T extends object>(obj: T, searchValue: string | RegExp, replaceValue: Record<string, string | undefined>) => {
   // Deep clone
   const ret = JSON.parse(JSON.stringify(obj)) as T
 
@@ -64,10 +57,7 @@ const replace = <T extends object>(
     if (!value) continue
 
     if (typeof value === 'string') {
-      ret[key] = value.replace(
-        searchValue,
-        (character) => replaceValue[character] || character,
-      ) as T[keyof T]
+      ret[key] = value.replace(searchValue, (character) => replaceValue[character] || character) as T[keyof T]
       continue
     }
 
@@ -78,10 +68,7 @@ const replace = <T extends object>(
     if (Array.isArray(value)) {
       ret[key] = value.map((item: unknown) => {
         if (typeof item === 'string') {
-          return item.replace(
-            searchValue,
-            (character) => replaceValue[character] || character,
-          )
+          return item.replace(searchValue, (character) => replaceValue[character] || character)
         }
 
         if (typeof item === 'object' && item) {

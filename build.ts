@@ -51,10 +51,7 @@ const exportJson = async () => {
   }
 
   // Export a copy of sarf with replaced roots
-  await Bun.write(
-    `${outdir}/sarf-archetypes.json`,
-    JSON.stringify(mapToObject(sarf)),
-  )
+  await Bun.write(`${outdir}/sarf-archetypes.json`, JSON.stringify(mapToObject(sarf)))
 
   console.timeLog('JSON export')
 }

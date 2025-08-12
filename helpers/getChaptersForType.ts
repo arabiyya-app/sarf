@@ -14,9 +14,7 @@ type KeyOfMap<T> = T extends Map<infer K, unknown> ? K : never
  * const chapters = sarfHelpers.getChaptersForType('sahih')
  * ```
  */
-const getChaptersForType = (
-  type: KeyOfMap<typeof sarf> | AnyString,
-): Chapter<boolean>[] => {
+const getChaptersForType = (type: KeyOfMap<typeof sarf> | AnyString): Chapter<boolean>[] => {
   const verbType = sarf.get(type as KeyOfMap<typeof sarf>)
   if (verbType) return Array.from(verbType.values())
   return []
