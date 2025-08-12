@@ -15,6 +15,7 @@ const chapter: Chapter = {
     arabic: 'افْتِعَال',
     transliterated: "ifti'aal",
   },
+  exists: true,
   title: 'اتَّعَلَ يَتَّعِلُ',
   root_letters: [
     {
