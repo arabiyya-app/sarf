@@ -1,50 +1,50 @@
-import type {
-  ARABIC_PRONOUNS,
-  SARF_CHAPTERS,
-  SARF_FORMS,
-  SARF_TYPES,
-} from './constants'
+import type { ARABIC_PRONOUNS, SARF_CHAPTERS, SARF_FORMS, SARF_TYPES } from './constants'
 
-export type Chapter = MajhoolChapter | NonMajhoolChapter
+export type Chapter<Exists extends boolean = true> = MajhoolChapter<Exists> | NonMajhoolChapter<Exists>
 
-export type MajhoolChapter = BaseChapter<true>
-export type NonMajhoolChapter = BaseChapter<false>
+export type MajhoolChapter<Exists extends boolean> = BaseChapter<true, Exists>
+export type NonMajhoolChapter<Exists extends boolean> = BaseChapter<false, Exists>
 
-type BaseChapter<Majhool extends boolean = true> = {
+type BaseChapter<Majhool extends boolean = true, Exists extends boolean = true> = {
   id: ChapterId
   type: SarfType
   form: SarfForm
   chapter: SarfChapter
+  exists: Exists
   /** E.g. فَعَلَ يَفْعُلُ */
-  title: string
-  root_letters: RootLetters[]
-  'صرف صغير': {
-    مصدر: string
-    معروف: { ماضي: string; مضارع: string; فاعل: string }
-    مجهول: Majhool extends true
-      ? { ماضي: string; مضارع: string; مفعول: string }
-      : null
-    أمر: string
-    نهي: string
-  }
-  'صرف كبير': {
-    معروف: {
-      ماضي: Tasreef
-      مضارع: { مرفوع: Tasreef; منصوب: Tasreef; مجزوم: Tasreef }
-      أمر: AmrTasreef
-    }
-    مجهول: Majhool extends true
-      ? {
+  title: Exists extends true ? string : null
+  root_letters: Exists extends true ? RootLetters[] : null
+  'صرف صغير': Exists extends true
+    ? {
+        مصدر: string
+        معروف: { ماضي: string; مضارع: string; فاعل: string }
+        مجهول: Majhool extends true ? { ماضي: string; مضارع: string; مفعول: string } : null
+        أمر: string
+        نهي: string
+      }
+    : null
+  'صرف كبير': Exists extends true
+    ? {
+        معروف: {
           ماضي: Tasreef
           مضارع: { مرفوع: Tasreef; منصوب: Tasreef; مجزوم: Tasreef }
+          أمر: AmrTasreef
         }
-      : null
-  }
-  مشتق: {
-    مصدر: string[]
-    فاعل: IsmFaail
-    مفعول: Majhool extends true ? IsmMafool : null
-  }
+        مجهول: Majhool extends true
+          ? {
+              ماضي: Tasreef
+              مضارع: { مرفوع: Tasreef; منصوب: Tasreef; مجزوم: Tasreef }
+            }
+          : null
+      }
+    : null
+  مشتق: Exists extends true
+    ? {
+        مصدر: string[]
+        فاعل: IsmFaail
+        مفعول: Majhool extends true ? IsmMafool : null
+      }
+    : null
 }
 
 /** E.g. "sahih/nasara", "sahih/2", etc... */
@@ -102,10 +102,7 @@ export type EnglishVerb =
 
 export type Tasreef = Record<(typeof ARABIC_PRONOUNS)[number], string>
 
-export type AmrTasreef = Pick<
-  Tasreef,
-  'أَنْتَ' | 'أَنْتُمَا' | 'أَنْتُمْ' | 'أَنْتِ' | 'أَنْتُنَّ'
->
+export type AmrTasreef = Pick<Tasreef, 'أَنْتَ' | 'أَنْتُمَا' | 'أَنْتُمْ' | 'أَنْتِ' | 'أَنْتُنَّ'>
 
 export type IsmFaail = {
   مُذَكَّر: {
@@ -133,4 +130,4 @@ export type IsmMafool = {
   }
 }
 
-export type Sarf = Map<keyof typeof SARF_TYPES, Map<string, Chapter | null>>
+export type Sarf = Map<keyof typeof SARF_TYPES, Map<string, Chapter<boolean>>>
