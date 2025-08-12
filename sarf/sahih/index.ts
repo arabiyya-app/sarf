@@ -17,7 +17,7 @@ import sahihForm8 from './8'
 import sahihForm9 from './9'
 import sahihForm10 from './10'
 
-const sahih = new Map<string, Chapter | null>([
+const sahih = new Map<string, Chapter<boolean>>([
   ['nasara', sahihNasara],
   ['daraba', sahihDaraba],
   ['fataha', sahihFataha],

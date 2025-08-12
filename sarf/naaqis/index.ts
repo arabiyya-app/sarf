@@ -1,5 +1,8 @@
 // import-sort-ignore
+import { SARF_CHAPTERS, SARF_FORMS, SARF_TYPES } from '../../constants'
+
 import type { Chapter } from '../../types'
+import _fakeChapter from '../../helpers/_fakeChapter'
 
 import naaqisNasara from './nasara'
 import naaqisDaraba from './daraba'
@@ -12,16 +15,15 @@ import naaqisForm5 from './5'
 import naaqisForm6 from './6'
 import naaqisForm7 from './7'
 import naaqisForm8 from './8'
-// import naaqisForm9 from './9'
 import naaqisForm10 from './10'
 
-const naaqis = new Map<string, Chapter | null>([
+const naaqis = new Map<string, Chapter<boolean>>([
   ['nasara', naaqisNasara],
   ['daraba', naaqisDaraba],
   ['fataha', naaqisFataha],
   ["sami'a", naaqisSamia],
-  ['hasiba', null],
-  ['karuma', null],
+  ['hasiba', _fakeChapter({ id: 'naaqis/hasiba', type: SARF_TYPES['naaqis'], form: SARF_FORMS['1e'], chapter: SARF_CHAPTERS[4] })],
+  ['karuma', _fakeChapter({ id: 'naaqis/karuma', type: SARF_TYPES['naaqis'], form: SARF_FORMS['1f'], chapter: SARF_CHAPTERS[5] })],
   ['2', naaqisForm2],
   ['3', naaqisForm3],
   ['4', naaqisForm4],
@@ -29,7 +31,7 @@ const naaqis = new Map<string, Chapter | null>([
   ['6', naaqisForm6],
   ['7', naaqisForm7],
   ['8', naaqisForm8],
-  ['9', null],
+  ['9', _fakeChapter({ id: 'naaqis/9', type: SARF_TYPES['naaqis'], form: SARF_FORMS['9'], chapter: SARF_CHAPTERS[13] })],
   ['10', naaqisForm10],
 ])
 
