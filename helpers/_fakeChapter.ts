@@ -1,7 +1,8 @@
-import type { Chapter, ChapterId, SarfChapter, SarfForm, SarfType } from '../types'
+import type { Chapter, ChapterId, SarfChapter, SarfType } from '../types'
 
-const _fakeChapter = (params: { id: ChapterId; type: SarfType; form: SarfForm; chapter: SarfChapter }): Chapter<false> => ({
+const _fakeChapter = (params: { id: ChapterId; type: SarfType; chapter: SarfChapter }): Chapter<false> => ({
   ...params,
+  form: params.chapter.form,
   exists: false,
   title: null,
   root_letters: null,

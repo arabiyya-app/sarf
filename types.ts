@@ -54,7 +54,7 @@ export type SarfType = (typeof SARF_TYPES)[keyof typeof SARF_TYPES]
 
 export type SarfForm = (typeof SARF_FORMS)[keyof typeof SARF_FORMS]
 
-export type SarfChapter = (typeof SARF_CHAPTERS)[number]
+export type SarfChapter = (typeof SARF_CHAPTERS)[keyof typeof SARF_CHAPTERS]
 
 export type RootLetters = {
   arabic: { ف: string; ع: string; ل: string }

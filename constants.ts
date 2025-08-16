@@ -101,20 +101,20 @@ export const SARF_FORMS = {
   },
 } as const
 
-export const SARF_CHAPTERS = [
-  { arabic: 'نَصَرَ', transliterated: 'nasara' },
-  { arabic: 'ضَرَبَ', transliterated: 'daraba' },
-  { arabic: 'فَتَحَ', transliterated: 'fataha' },
-  { arabic: 'سَمِعَ', transliterated: "sami'a" },
-  { arabic: 'حَسِبَ', transliterated: 'hasiba' },
-  { arabic: 'كَرُمَ', transliterated: 'karuma' },
-  { arabic: 'تَفْعِيْل', transliterated: "taf'eel" },
-  { arabic: 'مُفَاعَلَة', transliterated: "mufaa'ala" },
-  { arabic: 'إِفْعَال', transliterated: "if'aal" },
-  { arabic: 'تَفَعُّل', transliterated: "tafa'ul" },
-  { arabic: 'تَفَاعُل', transliterated: "tafaa'ul" },
-  { arabic: 'انْفِعَال', transliterated: "infi'aal" },
-  { arabic: 'افْتِعَال', transliterated: "ifti'aal" },
-  { arabic: 'افْعِلَال', transliterated: "if'ilaal" },
-  { arabic: 'اسْتِفْعَال', transliterated: "istif'aal" },
-]
+export const SARF_CHAPTERS = {
+  nasara: { arabic: 'نَصَرَ', transliterated: 'nasara', form: SARF_FORMS['1a'] },
+  daraba: { arabic: 'ضَرَبَ', transliterated: 'daraba', form: SARF_FORMS['1b'] },
+  fataha: { arabic: 'فَتَحَ', transliterated: 'fataha', form: SARF_FORMS['1c'] },
+  "sami'a": { arabic: 'سَمِعَ', transliterated: "sami'a", form: SARF_FORMS['1d'] },
+  hasiba: { arabic: 'حَسِبَ', transliterated: 'hasiba', form: SARF_FORMS['1e'] },
+  karuma: { arabic: 'كَرُمَ', transliterated: 'karuma', form: SARF_FORMS['1f'] },
+  "taf'eel": { arabic: 'تَفْعِيْل', transliterated: "taf'eel", form: SARF_FORMS['2'] },
+  "mufaa'ala": { arabic: 'مُفَاعَلَة', transliterated: "mufaa'ala", form: SARF_FORMS['3'] },
+  "if'aal": { arabic: 'إِفْعَال', transliterated: "if'aal", form: SARF_FORMS['4'] },
+  "tafa'ul": { arabic: 'تَفَعُّل', transliterated: "tafa'ul", form: SARF_FORMS['5'] },
+  "tafaa'ul": { arabic: 'تَفَاعُل', transliterated: "tafaa'ul", form: SARF_FORMS['6'] },
+  "infi'aal": { arabic: 'انْفِعَال', transliterated: "infi'aal", form: SARF_FORMS['7'] },
+  "ifti'aal": { arabic: 'افْتِعَال', transliterated: "ifti'aal", form: SARF_FORMS['8'] },
+  "if'ilaal": { arabic: 'افْعِلَال', transliterated: "if'ilaal", form: SARF_FORMS['9'] },
+  "istif'aal": { arabic: 'اسْتِفْعَال', transliterated: "istif'aal", form: SARF_FORMS['10'] },
+} as const
