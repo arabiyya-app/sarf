@@ -1,5 +1,5 @@
 // import-sort-ignore
-import { SARF_CHAPTERS, SARF_FORMS, SARF_TYPES } from '../../constants'
+import { SARF_CHAPTERS, SARF_TYPES } from '../../constants'
 
 import type { Chapter } from '../../types'
 import _fakeChapter from '../../helpers/_fakeChapter'
@@ -20,10 +20,10 @@ import ajwafForm10 from './10'
 const ajwaf = new Map<string, Chapter<boolean>>([
   ['nasara', ajwafNasara],
   ['daraba', ajwafDaraba],
-  ['fataha', _fakeChapter({ id: 'ajwaf/fataha', type: SARF_TYPES['ajwaf'], form: SARF_FORMS['1c'], chapter: SARF_CHAPTERS[2] })],
+  ['fataha', _fakeChapter({ id: 'ajwaf/fataha', type: SARF_TYPES['ajwaf'], chapter: SARF_CHAPTERS['fataha'] })],
   ["sami'a", ajwafSamia],
-  ['hasiba', _fakeChapter({ id: 'ajwaf/hasiba', type: SARF_TYPES['ajwaf'], form: SARF_FORMS['1e'], chapter: SARF_CHAPTERS[4] })],
-  ['karuma', _fakeChapter({ id: 'ajwaf/karuma', type: SARF_TYPES['ajwaf'], form: SARF_FORMS['1f'], chapter: SARF_CHAPTERS[5] })],
+  ['hasiba', _fakeChapter({ id: 'ajwaf/hasiba', type: SARF_TYPES['ajwaf'], chapter: SARF_CHAPTERS['hasiba'] })],
+  ['karuma', _fakeChapter({ id: 'ajwaf/karuma', type: SARF_TYPES['ajwaf'], chapter: SARF_CHAPTERS['karuma'] })],
   ['2', ajwafForm2],
   ['3', ajwafForm3],
   ['4', ajwafForm4],

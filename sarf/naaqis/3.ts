@@ -1,20 +1,12 @@
+import { SARF_CHAPTERS, SARF_TYPES } from '../../constants'
+
 import type { Chapter } from '../../types'
 
 const chapter: Chapter = {
   id: 'naaqis/3',
-  type: {
-    arabic: 'ناقص',
-    transliterated: 'naaqis',
-  },
-  form: {
-    number: 3,
-    roman: 'III',
-    english: '3',
-  },
-  chapter: {
-    arabic: 'مُفَاعَلَة',
-    transliterated: "mufaa'ala",
-  },
+  type: SARF_TYPES['naaqis'],
+  form: SARF_CHAPTERS["mufaa'ala"].form,
+  chapter: SARF_CHAPTERS["mufaa'ala"],
   exists: true,
   title: 'فَاعَى يُفَاعِيْ',
   root_letters: [

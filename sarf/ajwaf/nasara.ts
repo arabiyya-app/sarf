@@ -1,20 +1,12 @@
+import { SARF_CHAPTERS, SARF_TYPES } from '../../constants'
+
 import type { Chapter } from '../../types'
 
 const chapter: Chapter = {
   id: 'ajwaf/qaala',
-  type: {
-    arabic: 'أجوف',
-    transliterated: 'ajwaf',
-  },
-  form: {
-    number: 1,
-    roman: 'I',
-    english: '1a',
-  },
-  chapter: {
-    arabic: 'نَصَرَ',
-    transliterated: 'nasara',
-  },
+  type: SARF_TYPES['ajwaf'],
+  form: SARF_CHAPTERS['nasara'].form,
+  chapter: SARF_CHAPTERS['nasara'],
   exists: true,
   title: 'فَالَ يَفُوْلُ',
   root_letters: [

@@ -1,5 +1,5 @@
 // import-sort-ignore
-import { SARF_CHAPTERS, SARF_FORMS, SARF_TYPES } from '../../constants'
+import { SARF_CHAPTERS, SARF_TYPES } from '../../constants'
 
 import type { Chapter } from '../../types'
 import _fakeChapter from '../../helpers/_fakeChapter'
@@ -20,9 +20,9 @@ const mudaaaf = new Map<string, Chapter<boolean>>([
   ['nasara', mudaaafNasara],
   ['daraba', mudaaafDaraba],
   ['fataha', mudaaafFataha],
-  ["sami'a", _fakeChapter({ id: "mudaa'af/sami'a", type: SARF_TYPES["mudaa'af"], form: SARF_FORMS['1d'], chapter: SARF_CHAPTERS[3] })],
-  ['hasiba', _fakeChapter({ id: "mudaa'af/hasiba", type: SARF_TYPES["mudaa'af"], form: SARF_FORMS['1e'], chapter: SARF_CHAPTERS[4] })],
-  ['karuma', _fakeChapter({ id: "mudaa'af/karuma", type: SARF_TYPES["mudaa'af"], form: SARF_FORMS['1f'], chapter: SARF_CHAPTERS[5] })],
+  ["sami'a", _fakeChapter({ id: "mudaa'af/sami'a", type: SARF_TYPES["mudaa'af"], chapter: SARF_CHAPTERS["sami'a"] })],
+  ['hasiba', _fakeChapter({ id: "mudaa'af/hasiba", type: SARF_TYPES["mudaa'af"], chapter: SARF_CHAPTERS['hasiba'] })],
+  ['karuma', _fakeChapter({ id: "mudaa'af/karuma", type: SARF_TYPES["mudaa'af"], chapter: SARF_CHAPTERS['karuma'] })],
   ['2', mudaaafForm2],
   ['3', mudaaafForm3],
   ['4', mudaaafForm4],
@@ -30,7 +30,7 @@ const mudaaaf = new Map<string, Chapter<boolean>>([
   ['6', mudaaafForm6],
   ['7', mudaaafForm7],
   ['8', mudaaafForm8],
-  ['9', _fakeChapter({ id: "mudaa'af/9", type: SARF_TYPES["mudaa'af"], form: SARF_FORMS['9'], chapter: SARF_CHAPTERS[13] })],
+  ['9', _fakeChapter({ id: "mudaa'af/9", type: SARF_TYPES["mudaa'af"], chapter: SARF_CHAPTERS["if'ilaal"] })],
   ['10', mudaaafForm10],
 ])
 
