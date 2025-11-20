@@ -4,9 +4,9 @@ import { SARF_CHAPTERS, SARF_TYPES } from '../../constants'
 import type { Chapter } from '../../types'
 import _fakeChapter from '../../helpers/_fakeChapter'
 
-import ajwafNasara from './nasara'
-import ajwafDaraba from './daraba'
-import ajwafSamia from "./sami'a"
+import ajwafQaala from './nasara'
+import ajwafBaaa from './daraba'
+import ajwafKhaafa from "./sami'a"
 import ajwafForm2 from './2'
 import ajwafForm3 from './3'
 import ajwafForm4 from './4'
@@ -18,10 +18,10 @@ import ajwafForm9 from './9'
 import ajwafForm10 from './10'
 
 const ajwaf = new Map<string, Chapter<boolean>>([
-  ['nasara', ajwafNasara],
-  ['daraba', ajwafDaraba],
+  ['nasara', ajwafQaala],
+  ['daraba', ajwafBaaa],
+  ["sami'a", ajwafKhaafa],
   ['fataha', _fakeChapter({ id: 'ajwaf/fataha', type: SARF_TYPES['ajwaf'], chapter: SARF_CHAPTERS['fataha'] })],
-  ["sami'a", ajwafSamia],
   ['hasiba', _fakeChapter({ id: 'ajwaf/hasiba', type: SARF_TYPES['ajwaf'], chapter: SARF_CHAPTERS['hasiba'] })],
   ['karuma', _fakeChapter({ id: 'ajwaf/karuma', type: SARF_TYPES['ajwaf'], chapter: SARF_CHAPTERS['karuma'] })],
   ['2', ajwafForm2],

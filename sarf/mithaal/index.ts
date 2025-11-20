@@ -4,9 +4,9 @@ import { SARF_CHAPTERS, SARF_TYPES } from '../../constants'
 import type { Chapter } from '../../types'
 import _fakeChapter from '../../helpers/_fakeChapter'
 
-import mithaalDaraba from './daraba'
-import mithaalFataha from './fataha'
-import mithaalSamia from "./sami'a"
+import mithaalWajada from './daraba'
+import mithaalWahaba from './fataha'
+import mithaalWajila from "./sami'a"
 import mithaalForm2 from './2'
 import mithaalForm3 from './3'
 import mithaalForm4 from './4'
@@ -16,10 +16,10 @@ import mithaalForm8 from './8'
 import mithaalForm10 from './10'
 
 const mithaal = new Map<string, Chapter<boolean>>([
+  ['daraba', mithaalWajada],
+  ["sami'a", mithaalWajila],
+  ['fataha', mithaalWahaba],
   ['nasara', _fakeChapter({ id: 'mithaal/nasara', type: SARF_TYPES['mithaal'], chapter: SARF_CHAPTERS['nasara'] })],
-  ['daraba', mithaalDaraba],
-  ['fataha', mithaalFataha],
-  ["sami'a", mithaalSamia],
   ['hasiba', _fakeChapter({ id: 'mithaal/hasiba', type: SARF_TYPES['mithaal'], chapter: SARF_CHAPTERS['hasiba'] })],
   ['karuma', _fakeChapter({ id: 'mithaal/karuma', type: SARF_TYPES['mithaal'], chapter: SARF_CHAPTERS['karuma'] })],
   ['2', mithaalForm2],
