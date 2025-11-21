@@ -118,3 +118,24 @@ export const SARF_CHAPTERS = {
   "if'ilaal": { arabic: 'افْعِلَال', transliterated: "if'ilaal" },
   "istif'aal": { arabic: 'اسْتِفْعَال', transliterated: "istif'aal" },
 } as const
+
+export const MUJARRAD_SARF_CHAPTERS: (typeof SARF_CHAPTERS)[keyof typeof SARF_CHAPTERS][] = [
+  SARF_CHAPTERS['nasara'],
+  SARF_CHAPTERS['daraba'],
+  SARF_CHAPTERS['fataha'],
+  SARF_CHAPTERS["sami'a"],
+  SARF_CHAPTERS['hasiba'],
+  SARF_CHAPTERS['karuma'],
+]
+
+export const MAZEED_FIHI_SARF_CHAPTERS: (typeof SARF_CHAPTERS)[keyof typeof SARF_CHAPTERS][] = [
+  SARF_CHAPTERS["taf'eel"],
+  SARF_CHAPTERS["mufaa'ala"],
+  SARF_CHAPTERS["if'aal"],
+  SARF_CHAPTERS["tafa'ul"],
+  SARF_CHAPTERS["tafaa'ul"],
+  SARF_CHAPTERS["infi'aal"],
+  SARF_CHAPTERS["ifti'aal"],
+  SARF_CHAPTERS["if'ilaal"],
+  SARF_CHAPTERS["istif'aal"],
+]
