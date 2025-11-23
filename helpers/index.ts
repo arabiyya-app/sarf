@@ -1,6 +1,7 @@
 import chapterExists from './chapterExists'
 import getChapterById from './getChapterById'
 import getChaptersForType from './getChaptersForType'
+import getFormNumber from './getFormNumber'
 import getSarfType from './getSarfType'
 import hasMajhool from './hasMajhool'
 import isMazeedFih from './isMazeedFih'
@@ -11,6 +12,7 @@ export default {
   chapterExists,
   getChapterById,
   getChaptersForType,
+  getFormNumber,
   getSarfType,
   hasMajhool,
   isMazeedFih,
