@@ -22,6 +22,27 @@ const chapter: Chapter = {
       },
       transliterated: 'takarrara',
     },
+    {
+      arabic: {
+        ف: 'ش',
+        ع: 'ت',
+        ل: 'ت',
+      },
+      english: {
+        base: 'scattered',
+        prefixToBe: true,
+      },
+      transliterated: 'tashattat',
+    },
+    {
+      arabic: {
+        ف: 'ح',
+        ع: 'ب',
+        ل: 'ب',
+      },
+      english: 'show love',
+      transliterated: 'tahabbaba',
+    },
   ],
   'صرف صغير': {
     مصدر: 'تَفَعُّلًا',

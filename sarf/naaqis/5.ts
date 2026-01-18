@@ -40,6 +40,27 @@ const chapter: Chapter = {
       },
       transliterated: 'takhattaa',
     },
+    {
+      arabic: {
+        ف: 'ز',
+        ع: 'ك',
+        ل: 'و',
+      },
+      english: {
+        base: 'purified',
+        prefixToBe: true,
+      },
+      transliterated: 'tazakkaa',
+    },
+    {
+      arabic: {
+        ف: 'ل',
+        ع: 'ق',
+        ل: 'ي',
+      },
+      english: 'receive',
+      transliterated: 'talaqqaa',
+    },
   ],
   'صرف صغير': {
     مصدر: 'تَفَعِّيًا',

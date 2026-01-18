@@ -22,6 +22,36 @@ const chapter: Chapter = {
       },
       transliterated: 'istaqarra',
     },
+    {
+      arabic: {
+        ف: 'م',
+        ع: 'ر',
+        ل: 'ر',
+      },
+      english: 'continue',
+      transliterated: 'istamarra',
+    },
+    {
+      arabic: {
+        ف: 'ح',
+        ع: 'ب',
+        ل: 'ب',
+      },
+      english: {
+        base: 'like',
+        specifically: 'prefer',
+      },
+      transliterated: 'istahabba',
+    },
+    {
+      arabic: {
+        ف: 'ح',
+        ع: 'ق',
+        ل: 'ق',
+      },
+      english: 'deserve',
+      transliterated: 'istahaqqa',
+    },
   ],
   'صرف صغير': {
     مصدر: 'اسْتِفْعَالًا',

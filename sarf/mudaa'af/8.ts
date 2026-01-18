@@ -19,6 +19,36 @@ const chapter: Chapter = {
       english: 'count',
       transliterated: "i'tadda",
     },
+    {
+      arabic: {
+        ف: 'غ',
+        ع: 'ر',
+        ل: 'ر',
+      },
+      english: {
+        base: 'deceived',
+        prefixToBe: true,
+      },
+      transliterated: 'ightarra',
+    },
+    {
+      arabic: {
+        ف: 'ه',
+        ع: 'م',
+        ل: 'م',
+      },
+      english: 'worry about',
+      transliterated: 'ihtamma',
+    },
+    {
+      arabic: {
+        ف: 'ش',
+        ع: 'د',
+        ل: 'د',
+      },
+      english: 'intensify',
+      transliterated: 'ishtadda',
+    },
   ],
   'صرف صغير': {
     مصدر: 'افْتِعَالًا',

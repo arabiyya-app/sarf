@@ -19,6 +19,15 @@ const chapter: Chapter = {
       english: 'open',
       transliterated: 'inhalla',
     },
+    {
+      arabic: {
+        ف: 'ش',
+        ع: 'ق',
+        ل: 'ق',
+      },
+      english: 'split',
+      transliterated: 'inshaqqa',
+    },
   ],
   'صرف صغير': {
     مصدر: 'انْفِعَالًا',
