@@ -7,6 +7,7 @@ import _fakeChapter from '../../helpers/_fakeChapter'
 import mithaalWajada from './daraba'
 import mithaalWahaba from './fataha'
 import mithaalWajila from "./sami'a"
+import mithaalWaritha from './hasiba'
 import mithaalForm2 from './2'
 import mithaalForm3 from './3'
 import mithaalForm4 from './4'
@@ -20,7 +21,7 @@ const mithaal = new Map<string, Chapter<boolean>>([
   ["sami'a", mithaalWajila],
   ['fataha', mithaalWahaba],
   ['nasara', _fakeChapter({ id: 'mithaal/nasara', type: SARF_TYPES['mithaal'], form: SARF_FORMS['1d'], chapter: SARF_CHAPTERS['nasara'] })],
-  ['hasiba', _fakeChapter({ id: 'mithaal/hasiba', type: SARF_TYPES['mithaal'], form: SARF_FORMS['1e'], chapter: SARF_CHAPTERS['hasiba'] })],
+  ['hasiba', mithaalWaritha],
   ['karuma', _fakeChapter({ id: 'mithaal/karuma', type: SARF_TYPES['mithaal'], form: SARF_FORMS['1f'], chapter: SARF_CHAPTERS['karuma'] })],
   ['2', mithaalForm2],
   ['3', mithaalForm3],

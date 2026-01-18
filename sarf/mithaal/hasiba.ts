@@ -3,39 +3,27 @@ import { SARF_CHAPTERS, SARF_FORMS, SARF_TYPES } from '../../constants'
 import type { Chapter } from '../../types'
 
 const chapter: Chapter = {
-  id: 'mithaal/wajada',
+  id: 'mithaal/waritha',
   type: SARF_TYPES['mithaal'],
-  form: SARF_FORMS['1a'],
-  chapter: SARF_CHAPTERS['daraba'],
+  form: SARF_FORMS['1e'],
+  chapter: SARF_CHAPTERS['hasiba'],
   exists: true,
-  title: 'فَعَلَ يَعِلُ',
+  title: 'فَعِلَ يَعِلُ',
   root_letters: [
     {
       arabic: {
         ف: 'و',
-        ع: 'ج',
-        ل: 'د',
+        ع: 'ر',
+        ل: 'ث',
       },
-      english: {
-        base: 'find',
-        past: 'found',
-      },
-      transliterated: 'wajada',
-    },
-    {
-      arabic: {
-        ف: 'و',
-        ع: 'ع',
-        ل: 'د',
-      },
-      english: 'promise',
-      transliterated: "wa'ada",
+      english: 'inherit',
+      transliterated: 'waritha',
     },
   ],
   'صرف صغير': {
-    مصدر: 'فُعُوْلًا',
+    مصدر: 'فِعَالَةً',
     معروف: {
-      ماضي: 'فَعَلَ',
+      ماضي: 'فَعِلَ',
       مضارع: 'يَعِلُ',
       فاعل: 'فَاعِلٌ',
     },
@@ -50,19 +38,19 @@ const chapter: Chapter = {
   'صرف كبير': {
     معروف: {
       ماضي: {
-        هُوَ: 'فَعَلَ',
+        هُوَ: 'فَعِلَ',
         هُمَا_مُذَكَّر: 'فَعَلَا',
         هُمْ: 'فَعَلُوْا',
         هِيَ: 'فَعَلَتْ',
         هُمَا_مُؤَنَّث: 'فَعَلَتَا',
-        هُنَّ: 'فَعَلْنَ',
-        أَنْتَ: 'فَعَلْتَ',
-        أَنْتُمَا: 'فَعَلْتُمَا',
-        أَنْتُمْ: 'فَعَلْتُمْ',
-        أَنْتِ: 'فَعَلْتِ',
-        أَنْتُنَّ: 'فَعَلْتُنَّ',
-        أَنَا: 'فَعَلْتُ',
-        نَحْنُ: 'فَعَلْنَا',
+        هُنَّ: 'فَعِلْنَ',
+        أَنْتَ: 'فَعِلْتَ',
+        أَنْتُمَا: 'فَعِلْتُمَا',
+        أَنْتُمْ: 'فَعِلْتُمْ',
+        أَنْتِ: 'فَعِلْتِ',
+        أَنْتُنَّ: 'فَعِلْتُنَّ',
+        أَنَا: 'فَعِلْتُ',
+        نَحْنُ: 'فَعِلْنَا',
       },
       مضارع: {
         مرفوع: {

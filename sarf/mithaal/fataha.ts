@@ -19,6 +19,18 @@ const chapter: Chapter = {
       english: 'gift',
       transliterated: 'wahaba',
     },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ض',
+        ل: 'ع',
+      },
+      english: {
+        base: 'put',
+        past: 'put',
+      },
+      transliterated: "wada'a",
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَعْلًا',
