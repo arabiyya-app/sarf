@@ -28,6 +28,45 @@ const chapter: Chapter = {
       english: 'help',
       transliterated: 'tadaawaqa',
     },
+    {
+      arabic: {
+        ف: 'ح',
+        ع: 'و',
+        ل: 'ر',
+      },
+      english: 'carry on a discussion',
+      transliterated: 'tahaawara',
+    },
+    {
+      arabic: {
+        ف: 'ل',
+        ع: 'و',
+        ل: 'م',
+      },
+      english: 'blame each other',
+      transliterated: 'talaawama',
+    },
+    {
+      arabic: {
+        ف: 'ش',
+        ع: 'و',
+        ل: 'ر',
+      },
+      english: 'take counsel',
+      transliterated: 'tashaawara',
+    },
+    {
+      arabic: {
+        ف: 'ن',
+        ع: 'و',
+        ل: 'ل',
+      },
+      english: {
+        base: 'take',
+        specifically: 'receive',
+      },
+      transliterated: 'tanaawala',
+    },
   ],
   'صرف صغير': {
     مصدر: 'تَفَاوُلًا',

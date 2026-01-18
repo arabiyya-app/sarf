@@ -38,6 +38,24 @@ const chapter: Chapter = {
       },
       transliterated: "istataa'a",
     },
+    {
+      arabic: {
+        ف: 'ق',
+        ع: 'و',
+        ل: 'م',
+      },
+      english: 'straighten up',
+      transliterated: 'istaqaama',
+    },
+    {
+      arabic: {
+        ف: 'ج',
+        ع: 'و',
+        ل: 'ب',
+      },
+      english: 'respond',
+      transliterated: 'istajaaba',
+    },
   ],
   'صرف صغير': {
     مصدر: 'اسْتِفَالَةً',

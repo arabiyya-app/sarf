@@ -31,6 +31,33 @@ const chapter: Chapter = {
       },
       transliterated: 'ishtaaqa',
     },
+    {
+      arabic: {
+        ف: 'ر',
+        ع: 'ي',
+        ل: 'ب',
+      },
+      english: 'doubt',
+      transliterated: 'irtaaba',
+    },
+    {
+      arabic: {
+        ف: 'غ',
+        ع: 'ي',
+        ل: 'ب',
+      },
+      english: 'backbite',
+      transliterated: 'ightaaba',
+    },
+    {
+      arabic: {
+        ف: 'خ',
+        ع: 'ي',
+        ل: 'ر',
+      },
+      english: 'choose',
+      transliterated: 'ikhtaara',
+    },
   ],
   'صرف صغير': {
     مصدر: 'افْتِيَالًا',

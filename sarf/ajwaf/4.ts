@@ -37,6 +37,27 @@ const chapter: Chapter = {
       english: 'surround',
       transliterated: 'ahaata',
     },
+    {
+      arabic: {
+        ف: 'ص',
+        ع: 'و',
+        ل: 'ب',
+      },
+      english: {
+        base: 'hit',
+        specifically: 'afflict',
+      },
+      transliterated: 'asaaba',
+    },
+    {
+      arabic: {
+        ف: 'ق',
+        ع: 'و',
+        ل: 'م',
+      },
+      english: 'straighten',
+      transliterated: 'aqaama',
+    },
   ],
   'صرف صغير': {
     مصدر: 'إِفَالَةً',

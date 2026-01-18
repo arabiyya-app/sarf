@@ -28,6 +28,45 @@ const chapter: Chapter = {
       english: 'perfume',
       transliterated: 'tatayyaba',
     },
+    {
+      arabic: {
+        ف: 'ب',
+        ع: 'ي',
+        ل: 'ن',
+      },
+      english: {
+        base: 'clear',
+        prefixToBe: true,
+      },
+      transliterated: 'tabayyana',
+    },
+    {
+      arabic: {
+        ف: 'ع',
+        ع: 'و',
+        ل: 'ذ',
+      },
+      english: 'seek refuge',
+      transliterated: "ta'awwadha",
+    },
+    {
+      arabic: {
+        ف: 'ط',
+        ع: 'و',
+        ل: 'ع',
+      },
+      english: 'volunteer',
+      transliterated: "tatawwa'a",
+    },
+    {
+      arabic: {
+        ف: 'غ',
+        ع: 'ي',
+        ل: 'ر',
+      },
+      english: 'change',
+      transliterated: 'taghayyara',
+    },
   ],
   'صرف صغير': {
     مصدر: 'تَفَوُّلًا',

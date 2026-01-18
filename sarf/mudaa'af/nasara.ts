@@ -19,6 +19,33 @@ const chapter: Chapter = {
       english: 'extend',
       transliterated: 'madda',
     },
+    {
+      arabic: {
+        ف: 'ش',
+        ع: 'د',
+        ل: 'د',
+      },
+      english: 'tighten',
+      transliterated: 'shadda',
+    },
+    {
+      arabic: {
+        ف: 'م',
+        ع: 'ر',
+        ل: 'ر',
+      },
+      english: 'pass',
+      transliterated: 'marra',
+    },
+    {
+      arabic: {
+        ف: 'ص',
+        ع: 'د',
+        ل: 'د',
+      },
+      english: 'turn away',
+      transliterated: 'sadda',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَعًّا',
