@@ -31,6 +31,28 @@ const chapter: Chapter = {
       },
       transliterated: "wada'a",
     },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ق',
+        ل: 'ع',
+      },
+      english: {
+        base: 'fall',
+        past: 'fell',
+        specifically: 'occur',
+      },
+      transliterated: "waqa'a",
+    },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'د',
+        ل: 'ع',
+      },
+      english: 'leave',
+      transliterated: "wada'a (leave)",
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَعْلًا',

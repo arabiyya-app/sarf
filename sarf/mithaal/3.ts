@@ -19,6 +19,24 @@ const chapter: Chapter = {
       english: 'agree',
       transliterated: 'waafaqa',
     },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ص',
+        ل: 'ل',
+      },
+      english: 'connect',
+      transliterated: 'waasala',
+    },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ل',
+        ل: 'ي',
+      },
+      english: 'arrange',
+      transliterated: 'waalaa',
+    },
   ],
   'صرف صغير': {
     مصدر: 'مُفَاعَلَةً',

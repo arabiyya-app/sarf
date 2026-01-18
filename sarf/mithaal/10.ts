@@ -19,6 +19,33 @@ const chapter: Chapter = {
       english: 'place',
       transliterated: "istawda'a",
     },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ق',
+        ل: 'د',
+      },
+      english: 'kindle',
+      transliterated: 'istawqada',
+    },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ج',
+        ل: 'ب',
+      },
+      english: 'make obligatory',
+      transliterated: 'istawjaba',
+    },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ث',
+        ل: 'ق',
+      },
+      english: 'make certain',
+      transliterated: 'istawthaq',
+    },
   ],
   'صرف صغير': {
     مصدر: 'اسْتِيْعَالًا',

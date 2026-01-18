@@ -31,6 +31,15 @@ const chapter: Chapter = {
       english: 'promise',
       transliterated: "wa'ada",
     },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ع',
+        ل: 'ظ',
+      },
+      english: 'advise',
+      transliterated: "wa'aza",
+    },
   ],
   'صرف صغير': {
     مصدر: 'فُعُوْلًا',

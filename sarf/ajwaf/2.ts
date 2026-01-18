@@ -19,6 +19,45 @@ const chapter: Chapter = {
       english: 'change',
       transliterated: 'ghayyara',
     },
+    {
+      arabic: {
+        ف: 'ص',
+        ع: 'و',
+        ل: 'ر',
+      },
+      english: {
+        base: 'fashion',
+        specifically: 'mould',
+      },
+      transliterated: 'sawwara',
+    },
+    {
+      arabic: {
+        ف: 'ز',
+        ع: 'ي',
+        ل: 'ن',
+      },
+      english: 'adorn',
+      transliterated: 'zayyana',
+    },
+    {
+      arabic: {
+        ف: 'ز',
+        ع: 'و',
+        ل: 'ج',
+      },
+      english: 'marry',
+      transliterated: 'zawwaja',
+    },
+    {
+      arabic: {
+        ف: 'ن',
+        ع: 'و',
+        ل: 'ر',
+      },
+      english: 'illuminate',
+      transliterated: 'nawwara',
+    },
   ],
   'صرف صغير': {
     مصدر: 'تَفْيِيْلًا',

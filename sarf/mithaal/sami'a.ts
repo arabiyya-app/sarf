@@ -23,6 +23,18 @@ const chapter: Chapter = {
       },
       transliterated: 'wajala',
     },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'س',
+        ل: 'ع',
+      },
+      english: {
+        base: 'vast',
+        prefixToBe: true,
+      },
+      transliterated: "wasi'a",
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَعَلًا',

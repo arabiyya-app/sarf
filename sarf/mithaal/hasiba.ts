@@ -19,6 +19,27 @@ const chapter: Chapter = {
       english: 'inherit',
       transliterated: 'waritha',
     },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ر',
+        ل: 'ع',
+      },
+      english: {
+        base: 'god-fearing',
+        prefixToBe: true,
+      },
+      transliterated: "wari'a",
+    },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ر',
+        ل: 'م',
+      },
+      english: 'swell',
+      transliterated: 'warima',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فِعَالَةً',
