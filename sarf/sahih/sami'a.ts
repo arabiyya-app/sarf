@@ -31,6 +31,28 @@ const chapter: Chapter = {
       english: 'dislike',
       transliterated: 'kariha',
     },
+    {
+      arabic: {
+        ف: 'ع',
+        ع: 'ل',
+        ل: 'م',
+      },
+      english: {
+        base: 'know',
+        past: 'knew',
+        passive: 'known',
+      },
+      transliterated: "'alima",
+    },
+    {
+      arabic: {
+        ف: 'ف',
+        ع: 'ر',
+        ل: 'ح',
+      },
+      english: 'rejoice',
+      transliterated: 'fariha',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَعْلًا',

@@ -33,6 +33,28 @@ const chapter: Chapter = {
       },
       transliterated: 'nasaha',
     },
+    {
+      arabic: {
+        ف: 'ذ',
+        ع: 'ه',
+        ل: 'ب',
+      },
+      english: {
+        base: 'go',
+        past: 'went',
+        passive: 'gone',
+      },
+      transliterated: 'dhahaba',
+    },
+    {
+      arabic: {
+        ف: 'س',
+        ع: 'ج',
+        ل: 'د',
+      },
+      english: 'prostrate',
+      transliterated: 'sajada',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَعْلًا',

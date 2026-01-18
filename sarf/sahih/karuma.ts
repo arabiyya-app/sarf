@@ -34,6 +34,19 @@ const chapter: Chapter = {
       },
       transliterated: 'qaruba',
     },
+    {
+      arabic: {
+        ف: 'ح',
+        ع: 'س',
+        ل: 'ن',
+      },
+      english: {
+        base: 'good',
+        prefixToBe: true,
+        specifically: 'beautiful',
+      },
+      transliterated: 'hasuna',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَعَالَةً',

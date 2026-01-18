@@ -40,6 +40,19 @@ const chapter: Chapter = {
       english: 'want',
       transliterated: "shaa'a",
     },
+    {
+      arabic: {
+        ف: 'ط',
+        ع: 'ي',
+        ل: 'ر',
+      },
+      english: {
+        base: 'fly',
+        past: 'flew',
+        passive: 'flown',
+      },
+      transliterated: 'taara',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَوْلًا',

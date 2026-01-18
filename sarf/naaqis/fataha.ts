@@ -19,6 +19,20 @@ const chapter: Chapter = {
       english: 'prohibit',
       transliterated: 'nahaa',
     },
+    {
+      arabic: {
+        ف: 'س',
+        ع: 'ه',
+        ل: 'و',
+      },
+      english: {
+        base: 'forget',
+        past: 'forgot',
+        passive: 'forgotten',
+        specifically: 'neglect',
+      },
+      transliterated: 'sahaa',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَعْيًا',

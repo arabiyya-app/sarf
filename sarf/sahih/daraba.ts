@@ -35,6 +35,28 @@ const chapter: Chapter = {
       },
       transliterated: 'kasara',
     },
+    {
+      arabic: {
+        ف: 'ف',
+        ع: 'ه',
+        ل: 'م',
+      },
+      english: 'understand',
+      transliterated: 'fahima',
+    },
+    {
+      arabic: {
+        ف: 'ش',
+        ع: 'ر',
+        ل: 'ب',
+      },
+      english: {
+        base: 'drink',
+        past: 'drank',
+        passive: 'drunk',
+      },
+      transliterated: 'shariba',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَعْلًا',

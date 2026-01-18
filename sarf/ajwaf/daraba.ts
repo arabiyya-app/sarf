@@ -40,6 +40,15 @@ const chapter: Chapter = {
       english: 'live',
       transliterated: 'aasha',
     },
+    {
+      arabic: {
+        ف: 'ز',
+        ع: 'و',
+        ل: 'ر',
+      },
+      english: 'visit',
+      transliterated: 'zaara',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَيْلًا',

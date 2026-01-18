@@ -41,6 +41,18 @@ const chapter: Chapter = {
       english: 'guide',
       transliterated: 'hadaa',
     },
+    {
+      arabic: {
+        ف: 'ب',
+        ع: 'ك',
+        ل: 'ي',
+      },
+      english: {
+        base: 'cry',
+        past: 'cried',
+      },
+      transliterated: 'bakaa',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَعْيًا',

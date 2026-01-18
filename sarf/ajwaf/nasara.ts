@@ -23,6 +23,24 @@ const chapter: Chapter = {
       },
       transliterated: 'qaala',
     },
+    {
+      arabic: {
+        ف: 'ص',
+        ع: 'و',
+        ل: 'م',
+      },
+      english: 'fast',
+      transliterated: 'saama',
+    },
+    {
+      arabic: {
+        ف: 'ن',
+        ع: 'و',
+        ل: 'م',
+      },
+      english: 'sleep',
+      transliterated: 'naama',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَوْلًا',

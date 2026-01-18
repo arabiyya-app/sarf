@@ -19,6 +19,15 @@ const chapter: Chapter = {
       english: 'calculate',
       transliterated: 'hasiba',
     },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ر',
+        ل: 'ث',
+      },
+      english: 'inherit',
+      transliterated: 'waritha',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فِعْلَانًا',

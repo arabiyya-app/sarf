@@ -22,6 +22,18 @@ const chapter: Chapter = {
       },
       transliterated: 'farra',
     },
+    {
+      arabic: {
+        ف: 'م',
+        ع: 'ر',
+        ل: 'ر',
+      },
+      english: {
+        base: 'pass',
+        specifically: 'pass by',
+      },
+      transliterated: 'marra',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فِعَالًا',

@@ -19,6 +19,18 @@ const chapter: Chapter = {
       english: 'touch',
       transliterated: 'massa',
     },
+    {
+      arabic: {
+        ف: 'ح',
+        ع: 'ج',
+        ل: 'ج',
+      },
+      english: {
+        base: 'perform',
+        specifically: 'pilgrimage',
+      },
+      transliterated: 'hajja',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَعًّا',

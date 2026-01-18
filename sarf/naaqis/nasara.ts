@@ -41,6 +41,15 @@ const chapter: Chapter = {
       english: 'hope',
       transliterated: 'rajaa',
     },
+    {
+      arabic: {
+        ف: 'س',
+        ع: 'ع',
+        ل: 'ي',
+      },
+      english: 'strive',
+      transliterated: "sa'aa",
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَعْوَةً',

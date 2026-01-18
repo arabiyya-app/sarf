@@ -28,6 +28,27 @@ const chapter: Chapter = {
       english: 'enter',
       transliterated: 'dakhala',
     },
+    {
+      arabic: {
+        ف: 'ش',
+        ع: 'ك',
+        ل: 'ر',
+      },
+      english: 'thank',
+      transliterated: 'shakara',
+    },
+    {
+      arabic: {
+        ف: 'ذ',
+        ع: 'ك',
+        ل: 'ر',
+      },
+      english: {
+        base: 'remember',
+        specifically: 'mention',
+      },
+      transliterated: 'dhakara',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَعْلًا',
