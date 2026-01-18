@@ -21,7 +21,7 @@ const chapter: Chapter = {
         prefixToBe: true,
         passive: 'frightened',
       },
-      transliterated: 'wajala',
+      transliterated: 'wajila',
     },
     {
       arabic: {
