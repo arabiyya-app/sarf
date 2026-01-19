@@ -28,6 +28,96 @@ const chapter: Chapter = {
       english: 'enter',
       transliterated: 'dakhala',
     },
+    {
+      arabic: {
+        ف: 'ب',
+        ع: 'ل',
+        ل: 'غ',
+      },
+      english: 'reach',
+      transliterated: 'balagha',
+    },
+    {
+      arabic: {
+        ف: 'ت',
+        ع: 'ر',
+        ل: 'ك',
+      },
+      english: 'leave',
+      transliterated: 'taraka',
+    },
+    {
+      arabic: {
+        ف: 'ح',
+        ع: 'ش',
+        ل: 'ر',
+      },
+      english: 'gather',
+      transliterated: 'hashara',
+    },
+    {
+      arabic: {
+        ف: 'ح',
+        ع: 'ك',
+        ل: 'م',
+      },
+      english: 'judge',
+      transliterated: 'hakama',
+    },
+    {
+      arabic: {
+        ف: 'خ',
+        ع: 'ر',
+        ل: 'ج',
+      },
+      english: 'come out',
+      transliterated: 'kharaja',
+    },
+    {
+      arabic: {
+        ف: 'ذ',
+        ع: 'ك',
+        ل: 'ر',
+      },
+      english: 'remember',
+      transliterated: 'dhakara',
+    },
+    {
+      arabic: {
+        ف: 'ر',
+        ع: 'ز',
+        ل: 'ق',
+      },
+      english: 'provide',
+      transliterated: 'razaqa',
+    },
+    {
+      arabic: {
+        ف: 'ق',
+        ع: 'ت',
+        ل: 'ل',
+      },
+      english: 'kill',
+      transliterated: 'qatala',
+    },
+    {
+      arabic: {
+        ف: 'خ',
+        ع: 'ل',
+        ل: 'ق',
+      },
+      english: 'create',
+      transliterated: 'khalaqa',
+    },
+    {
+      arabic: {
+        ف: 'ع',
+        ع: 'ب',
+        ل: 'د',
+      },
+      english: 'worship',
+      transliterated: "'abada",
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَعْلًا',

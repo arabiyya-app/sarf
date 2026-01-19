@@ -33,6 +33,64 @@ const chapter: Chapter = {
       },
       transliterated: 'nasaha',
     },
+    {
+      arabic: {
+        ف: 'ر',
+        ع: 'ك',
+        ل: 'ب',
+      },
+      english: {
+        base: 'ride',
+        past: 'rode',
+        passive: 'ridden',
+      },
+      transliterated: 'rakiba',
+    },
+    {
+      arabic: {
+        ف: 'س',
+        ع: 'خ',
+        ل: 'ر',
+      },
+      english: 'ridicule',
+      transliterated: 'sakhira',
+    },
+    {
+      arabic: {
+        ف: 'ش',
+        ع: 'ه',
+        ل: 'د',
+      },
+      english: 'bear witness',
+      transliterated: 'shahida',
+    },
+    {
+      arabic: {
+        ف: 'ع',
+        ع: 'ل',
+        ل: 'م',
+      },
+      english: 'know',
+      transliterated: "'alima",
+    },
+    {
+      arabic: {
+        ف: 'ع',
+        ع: 'م',
+        ل: 'ل',
+      },
+      english: 'do',
+      transliterated: "'amila",
+    },
+    {
+      arabic: {
+        ف: 'ك',
+        ع: 'ر',
+        ل: 'ه',
+      },
+      english: 'dislike',
+      transliterated: 'kariha',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَعْلًا',

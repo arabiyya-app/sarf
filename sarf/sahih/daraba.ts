@@ -35,6 +35,109 @@ const chapter: Chapter = {
       },
       transliterated: 'kasara',
     },
+    {
+      arabic: {
+        ف: 'ح',
+        ع: 'م',
+        ل: 'ل',
+      },
+      english: 'carry',
+      transliterated: 'hamala',
+    },
+    {
+      arabic: {
+        ف: 'ص',
+        ع: 'ب',
+        ل: 'ر',
+      },
+      english: 'bear with patience',
+      transliterated: 'sabara',
+    },
+    {
+      arabic: {
+        ف: 'ظ',
+        ع: 'ل',
+        ل: 'م',
+      },
+      english: 'wrong, oppress',
+      transliterated: 'zalama',
+    },
+    {
+      arabic: {
+        ف: 'ع',
+        ع: 'ر',
+        ل: 'ف',
+      },
+      english: 'recognise',
+      transliterated: "'arafa",
+    },
+    {
+      arabic: {
+        ف: 'ع',
+        ع: 'ق',
+        ل: 'ل',
+      },
+      english: 'understand',
+      transliterated: "'aqala",
+    },
+    {
+      arabic: {
+        ف: 'غ',
+        ع: 'ف',
+        ل: 'ر',
+      },
+      english: 'forgive',
+      transliterated: 'ghafara',
+    },
+    {
+      arabic: {
+        ف: 'ق',
+        ع: 'د',
+        ل: 'ر',
+      },
+      english: 'have power',
+      transliterated: 'qadara',
+    },
+    {
+      arabic: {
+        ف: 'ك',
+        ع: 'ذ',
+        ل: 'ب',
+      },
+      english: {
+        base: 'lie',
+        past: 'lied',
+        presentContinuous: 'lying',
+      },
+      transliterated: 'kadhaba',
+    },
+    {
+      arabic: {
+        ف: 'ك',
+        ع: 'س',
+        ل: 'ب',
+      },
+      english: 'earn',
+      transliterated: 'kasaba',
+    },
+    {
+      arabic: {
+        ف: 'م',
+        ع: 'ل',
+        ل: 'ك',
+      },
+      english: 'own, have the ability',
+      transliterated: 'malaka',
+    },
+    {
+      arabic: {
+        ف: 'ه',
+        ع: 'ب',
+        ل: 'ط',
+      },
+      english: 'descend',
+      transliterated: 'habata',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَعْلًا',
