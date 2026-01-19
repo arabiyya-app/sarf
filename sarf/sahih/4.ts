@@ -43,6 +43,42 @@ const chapter: Chapter = {
       },
       transliterated: "at'ama",
     },
+    {
+      arabic: {
+        ف: 'ص',
+        ع: 'ل',
+        ل: 'ح',
+      },
+      english: 'rectify',
+      transliterated: 'aslaha',
+    },
+    {
+      arabic: {
+        ف: 'ب',
+        ع: 'د',
+        ل: 'ل',
+      },
+      english: 'replace',
+      transliterated: 'abdala',
+    },
+    {
+      arabic: {
+        ف: 'ك',
+        ع: 'ر',
+        ل: 'م',
+      },
+      english: 'honour',
+      transliterated: 'akrama',
+    },
+    {
+      arabic: {
+        ف: 'س',
+        ع: 'ل',
+        ل: 'م',
+      },
+      english: 'become Muslim, submit',
+      transliterated: 'aslama',
+    },
   ],
   'صرف صغير': {
     مصدر: 'إِفْعَالًا',

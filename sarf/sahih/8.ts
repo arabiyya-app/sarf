@@ -40,6 +40,60 @@ const chapter: Chapter = {
       english: 'bathe',
       transliterated: 'ightasala',
     },
+    {
+      arabic: {
+        ف: 'ع',
+        ع: 'ر',
+        ل: 'ف',
+      },
+      english: 'confess',
+      transliterated: "i'tarafa",
+    },
+    {
+      arabic: {
+        ف: 'ج',
+        ع: 'ن',
+        ل: 'ب',
+      },
+      english: 'abstain',
+      transliterated: 'ijtanaba',
+    },
+    {
+      arabic: {
+        ف: 'ج',
+        ع: 'م',
+        ل: 'ع',
+      },
+      english: 'come together',
+      transliterated: "ijtama'a",
+    },
+    {
+      arabic: {
+        ف: 'خ',
+        ع: 'ل',
+        ل: 'ف',
+      },
+      english: 'differ',
+      transliterated: 'ikhtalafa',
+    },
+    {
+      arabic: {
+        ف: 'ق',
+        ع: 'ر',
+        ل: 'ب',
+      },
+      english: 'approach',
+      transliterated: 'iqtaraba',
+    },
+    {
+      arabic: {
+        ف: 'س',
+        ع: 'م',
+        ل: 'ع',
+      },
+      english: 'listen',
+      transliterated: "istama'a",
+    },
   ],
   'صرف صغير': {
     مصدر: 'افْتِعَالًا',

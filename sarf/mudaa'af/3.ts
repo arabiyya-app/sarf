@@ -19,6 +19,15 @@ const chapter: Chapter = {
       english: 'oppose',
       transliterated: 'shaaqqa',
     },
+    {
+      arabic: {
+        ف: 'ح',
+        ع: 'د',
+        ل: 'د',
+      },
+      english: 'argue',
+      transliterated: 'haadda',
+    },
   ],
   'صرف صغير': {
     مصدر: 'مُفَاعَّهً',

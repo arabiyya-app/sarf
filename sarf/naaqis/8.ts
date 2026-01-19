@@ -35,6 +35,18 @@ const chapter: Chapter = {
       },
       transliterated: 'irtadaa',
     },
+    {
+      arabic: {
+        ف: 'ش',
+        ع: 'ر',
+        ل: 'ي',
+      },
+      english: {
+        base: 'buy',
+        past: 'bought',
+      },
+      transliterated: 'ishtaraa',
+    },
   ],
   'صرف صغير': {
     مصدر: 'افْتِعَاءً',

@@ -19,6 +19,33 @@ const chapter: Chapter = {
       english: 'try',
       transliterated: 'haawala',
     },
+    {
+      arabic: {
+        ف: 'ن',
+        ع: 'و',
+        ل: 'ل',
+      },
+      english: 'hand over',
+      transliterated: 'naawala',
+    },
+    {
+      arabic: {
+        ف: 'ش',
+        ع: 'و',
+        ل: 'ر',
+      },
+      english: 'take counsel',
+      transliterated: 'shaawara',
+    },
+    {
+      arabic: {
+        ف: 'ج',
+        ع: 'و',
+        ل: 'د',
+      },
+      english: 'discuss',
+      transliterated: 'jaawada',
+    },
   ],
   'صرف صغير': {
     مصدر: 'مُفَاوَلَةً',

@@ -16,8 +16,17 @@ const chapter: Chapter = {
         ع: 'س',
         ل: 'ب',
       },
-      english: 'calculate',
+      english: 'consider',
       transliterated: 'hasiba',
+    },
+    {
+      arabic: {
+        ف: 'ن',
+        ع: 'ع',
+        ل: 'م',
+      },
+      english: 'live in comfort',
+      transliterated: "ni'ma",
     },
   ],
   'صرف صغير': {

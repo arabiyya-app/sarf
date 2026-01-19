@@ -19,6 +19,27 @@ const chapter: Chapter = {
       english: 'expand',
       transliterated: "ittasa'a",
     },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ح',
+        ل: 'د',
+      },
+      english: {
+        base: 'united',
+        prefixToBe: true,
+      },
+      transliterated: 'ittahada',
+    },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ف',
+        ل: 'ق',
+      },
+      english: 'agree',
+      transliterated: 'ittafaqa',
+    },
   ],
   'صرف صغير': {
     مصدر: 'اتِّعَالًا',

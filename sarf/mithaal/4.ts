@@ -22,6 +22,33 @@ const chapter: Chapter = {
       },
       transliterated: 'awrada',
     },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ص',
+        ل: 'ل',
+      },
+      english: 'connect',
+      transliterated: 'awsala',
+    },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ض',
+        ل: 'ح',
+      },
+      english: 'make clear',
+      transliterated: 'awdaha',
+    },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ق',
+        ل: 'د',
+      },
+      english: 'ignite',
+      transliterated: 'awqada',
+    },
   ],
   'صرف صغير': {
     مصدر: 'إِيْعَالًا',

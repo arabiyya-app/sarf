@@ -24,12 +24,54 @@ const chapter: Chapter = {
     },
     {
       arabic: {
-        ف: 'ك',
-        ع: 'ر',
-        ل: 'ه',
+        ف: 'ح',
+        ع: 'ز',
+        ل: 'ن',
       },
-      english: 'dislike',
-      transliterated: 'kariha',
+      english: {
+        base: 'grieved',
+        prefixToBe: true,
+      },
+      transliterated: 'hazina',
+    },
+    {
+      arabic: {
+        ف: 'ل',
+        ع: 'ب',
+        ل: 'ث',
+      },
+      english: 'stay, remain',
+      transliterated: 'labitha',
+    },
+    {
+      arabic: {
+        ف: 'ح',
+        ع: 'ف',
+        ل: 'ظ',
+      },
+      english: 'guard',
+      transliterated: 'hafiza',
+    },
+    {
+      arabic: {
+        ف: 'خ',
+        ع: 'س',
+        ل: 'ر',
+      },
+      english: {
+        base: 'lose',
+        past: 'lost',
+      },
+      transliterated: 'khasira',
+    },
+    {
+      arabic: {
+        ف: 'ر',
+        ع: 'ح',
+        ل: 'م',
+      },
+      english: 'have mercy',
+      transliterated: 'rahima',
     },
   ],
   'صرف صغير': {

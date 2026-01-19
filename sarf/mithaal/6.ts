@@ -24,6 +24,33 @@ const chapter: Chapter = {
       },
       transliterated: "tawaada'a",
     },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ت',
+        ل: 'ر',
+      },
+      english: 'continue uninterruptedly',
+      transliterated: 'tawaatara',
+    },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ر',
+        ل: 'ث',
+      },
+      english: 'inherit successively',
+      transliterated: 'tawaaratha',
+    },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ع',
+        ل: 'د',
+      },
+      english: 'make an appointment',
+      transliterated: "tawaa'ada",
+    },
   ],
   'صرف صغير': {
     مصدر: 'تَفَاعُلًا',

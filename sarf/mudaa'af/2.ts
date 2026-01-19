@@ -19,6 +19,24 @@ const chapter: Chapter = {
       english: 'reduce',
       transliterated: 'khaffafa',
     },
+    {
+      arabic: {
+        ف: 'ح',
+        ع: 'ب',
+        ل: 'ب',
+      },
+      english: 'cause to love',
+      transliterated: 'habbaba',
+    },
+    {
+      arabic: {
+        ف: 'ه',
+        ع: 'د',
+        ل: 'د',
+      },
+      english: 'threaten',
+      transliterated: 'haddada',
+    },
   ],
   'صرف صغير': {
     مصدر: 'تَفْعِيْلًا',

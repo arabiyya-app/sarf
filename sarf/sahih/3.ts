@@ -37,6 +37,60 @@ const chapter: Chapter = {
       english: 'help',
       transliterated: "saa'ada",
     },
+    {
+      arabic: {
+        ف: 'ه',
+        ع: 'ج',
+        ل: 'ر',
+      },
+      english: 'migrate',
+      transliterated: 'haajara',
+    },
+    {
+      arabic: {
+        ف: 'ب',
+        ع: 'ر',
+        ل: 'ك',
+      },
+      english: 'bless',
+      transliterated: 'baaraka',
+    },
+    {
+      arabic: {
+        ف: 'ع',
+        ع: 'ق',
+        ل: 'ب',
+      },
+      english: 'punish',
+      transliterated: "'aaqaba",
+    },
+    {
+      arabic: {
+        ف: 'ح',
+        ع: 'س',
+        ل: 'ب',
+      },
+      english: 'call to account',
+      transliterated: 'haasaba',
+    },
+    {
+      arabic: {
+        ف: 'ج',
+        ع: 'د',
+        ل: 'ل',
+      },
+      english: 'dispute',
+      transliterated: 'jaadala',
+    },
+    {
+      arabic: {
+        ف: 'ن',
+        ع: 'ف',
+        ل: 'ق',
+      },
+      english: 'act hypocritically',
+      transliterated: 'naafaqa',
+    },
   ],
   'صرف صغير': {
     مصدر: 'مُفَاعَلَةً',

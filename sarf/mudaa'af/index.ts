@@ -7,6 +7,7 @@ import _fakeChapter from '../../helpers/_fakeChapter'
 import mudaaafMadda from './nasara'
 import mudaaafFarra from './daraba'
 import mudaaafMassa from './fataha'
+import mudaaafBarra from "./sami'a"
 import mudaaafForm2 from './2'
 import mudaaafForm3 from './3'
 import mudaaafForm4 from './4'
@@ -20,7 +21,7 @@ const mudaaaf = new Map<string, Chapter<boolean>>([
   ['nasara', mudaaafMadda],
   ['daraba', mudaaafFarra],
   ['fataha', mudaaafMassa],
-  ["sami'a", _fakeChapter({ id: "mudaa'af/sami'a", type: SARF_TYPES["mudaa'af"], form: SARF_FORMS['1d'], chapter: SARF_CHAPTERS["sami'a"] })],
+  ["sami'a", mudaaafBarra],
   ['hasiba', _fakeChapter({ id: "mudaa'af/hasiba", type: SARF_TYPES["mudaa'af"], form: SARF_FORMS['1e'], chapter: SARF_CHAPTERS['hasiba'] })],
   ['karuma', _fakeChapter({ id: "mudaa'af/karuma", type: SARF_TYPES["mudaa'af"], form: SARF_FORMS['1f'], chapter: SARF_CHAPTERS['karuma'] })],
   ['2', mudaaafForm2],

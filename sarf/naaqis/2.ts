@@ -28,6 +28,15 @@ const chapter: Chapter = {
       english: 'name',
       transliterated: 'samma',
     },
+    {
+      arabic: {
+        ف: 'ل',
+        ع: 'ب',
+        ل: 'ي',
+      },
+      english: 'respond',
+      transliterated: 'labba',
+    },
   ],
   'صرف صغير': {
     مصدر: 'تَفْعِيَةً',

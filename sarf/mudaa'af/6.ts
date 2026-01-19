@@ -19,6 +19,24 @@ const chapter: Chapter = {
       english: 'dispute',
       transliterated: 'tahaajja',
     },
+    {
+      arabic: {
+        ف: 'ن',
+        ع: 'ج',
+        ل: 'ج',
+      },
+      english: 'exchange secrets',
+      transliterated: 'tanaajja',
+    },
+    {
+      arabic: {
+        ف: 'ح',
+        ع: 'ب',
+        ل: 'ب',
+      },
+      english: 'love one another',
+      transliterated: 'tahaabba',
+    },
   ],
   'صرف صغير': {
     مصدر: 'تَفَاعًّا',

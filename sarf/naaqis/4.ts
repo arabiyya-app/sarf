@@ -39,6 +39,24 @@ const chapter: Chapter = {
       },
       transliterated: 'alqaa',
     },
+    {
+      arabic: {
+        ف: 'ح',
+        ع: 'ي',
+        ل: 'ي',
+      },
+      english: 'revive',
+      transliterated: 'ahyaa',
+    },
+    {
+      arabic: {
+        ف: 'ب',
+        ع: 'ل',
+        ل: 'و',
+      },
+      english: 'test',
+      transliterated: 'ablaa',
+    },
   ],
   'صرف صغير': {
     مصدر: 'إِفْعَاءً',

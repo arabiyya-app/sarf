@@ -45,6 +45,24 @@ const chapter: Chapter = {
       },
       transliterated: 'taraadaa',
     },
+    {
+      arabic: {
+        ف: 'ن',
+        ع: 'د',
+        ل: 'و',
+      },
+      english: 'call each other',
+      transliterated: 'tanaadaa',
+    },
+    {
+      arabic: {
+        ف: 'ل',
+        ع: 'ق',
+        ل: 'ي',
+      },
+      english: 'meet each other',
+      transliterated: 'talaaqaa',
+    },
   ],
   'صرف صغير': {
     مصدر: 'تَفَاعِيًا',

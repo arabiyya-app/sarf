@@ -46,6 +46,60 @@ const chapter: Chapter = {
       },
       transliterated: 'inkashafa',
     },
+    {
+      arabic: {
+        ف: 'ف',
+        ع: 'ل',
+        ل: 'ق',
+      },
+      english: 'split, break',
+      transliterated: 'infalaqa',
+    },
+    {
+      arabic: {
+        ف: 'ط',
+        ع: 'ل',
+        ل: 'ق',
+      },
+      english: 'walk',
+      transliterated: 'intalaqa',
+    },
+    {
+      arabic: {
+        ف: 'ف',
+        ع: 'ر',
+        ل: 'د',
+      },
+      english: {
+        base: 'alone',
+        prefixToBe: true,
+      },
+      transliterated: 'infarada',
+    },
+    {
+      arabic: {
+        ف: 'ق',
+        ع: 'ل',
+        ل: 'ب',
+      },
+      english: {
+        base: 'turned',
+        prefixToBe: true,
+      },
+      transliterated: 'inqalaba',
+    },
+    {
+      arabic: {
+        ف: 'ف',
+        ع: 'ص',
+        ل: 'ل',
+      },
+      english: {
+        base: 'separate',
+        prefixToBe: true,
+      },
+      transliterated: 'infasala',
+    },
   ],
   'صرف صغير': {
     مصدر: 'انْفِعَالًا',

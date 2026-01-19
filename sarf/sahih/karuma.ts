@@ -34,6 +34,87 @@ const chapter: Chapter = {
       },
       transliterated: 'qaruba',
     },
+    {
+      arabic: {
+        ف: 'ب',
+        ع: 'ص',
+        ل: 'ر',
+      },
+      english: 'look',
+      transliterated: 'basura',
+    },
+    {
+      arabic: {
+        ف: 'ب',
+        ع: 'ع',
+        ل: 'د',
+      },
+      english: {
+        base: 'far',
+        prefixToBe: true,
+      },
+      transliterated: "ba'uda",
+    },
+    {
+      arabic: {
+        ف: 'ح',
+        ع: 'ر',
+        ل: 'م',
+      },
+      english: {
+        base: 'impermissible',
+        prefixToBe: true,
+      },
+      transliterated: 'huruma',
+    },
+    {
+      arabic: {
+        ف: 'ح',
+        ع: 'س',
+        ل: 'ن',
+      },
+      english: {
+        base: 'good',
+        prefixToBe: true,
+      },
+      transliterated: 'hasuna',
+    },
+    {
+      arabic: {
+        ف: 'خ',
+        ع: 'ب',
+        ل: 'ث',
+      },
+      english: {
+        base: 'bad',
+        prefixToBe: true,
+      },
+      transliterated: 'khabutha',
+    },
+    {
+      arabic: {
+        ف: 'ك',
+        ع: 'ب',
+        ل: 'ر',
+      },
+      english: {
+        base: 'big, old',
+        prefixToBe: true,
+      },
+      transliterated: 'kabura',
+    },
+    {
+      arabic: {
+        ف: 'ك',
+        ع: 'ث',
+        ل: 'ر',
+      },
+      english: {
+        base: 'more, abundant',
+        prefixToBe: true,
+      },
+      transliterated: 'kathura',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فَعَالَةً',

@@ -45,6 +45,18 @@ const chapter: Chapter = {
       },
       transliterated: 'nasiya',
     },
+    {
+      arabic: {
+        ف: 'ل',
+        ع: 'ق',
+        ل: 'ي',
+      },
+      english: {
+        base: 'meet',
+        past: 'met',
+      },
+      transliterated: 'laqiya',
+    },
   ],
   'صرف صغير': {
     مصدر: 'فِعًا',

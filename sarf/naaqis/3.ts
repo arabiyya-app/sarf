@@ -28,6 +28,24 @@ const chapter: Chapter = {
       english: 'whisper',
       transliterated: 'naajaa',
     },
+    {
+      arabic: {
+        ف: 'ل',
+        ع: 'ق',
+        ل: 'ي',
+      },
+      english: 'meet',
+      transliterated: 'laaqaa',
+    },
+    {
+      arabic: {
+        ف: 'ج',
+        ع: 'ز',
+        ل: 'ي',
+      },
+      english: 'requite',
+      transliterated: 'jaazaa',
+    },
   ],
   'صرف صغير': {
     مصدر: 'مُفَاعَاةً',

@@ -36,6 +36,15 @@ const chapter: Chapter = {
       },
       transliterated: 'istalqaa',
     },
+    {
+      arabic: {
+        ف: 'ف',
+        ع: 'ت',
+        ل: 'ي',
+      },
+      english: 'ask for a formal legal opinion',
+      transliterated: 'istaftaa',
+    },
   ],
   'صرف صغير': {
     مصدر: 'اسْتِفْعَاءً',

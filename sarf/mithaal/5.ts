@@ -19,6 +19,36 @@ const chapter: Chapter = {
       english: 'trust',
       transliterated: 'tawakkala',
     },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ج',
+        ل: 'ه',
+      },
+      english: {
+        base: 'face',
+        specifically: 'turn to',
+      },
+      transliterated: 'tawajjaha',
+    },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ق',
+        ل: 'ف',
+      },
+      english: 'stop',
+      transliterated: 'tawaqqafa',
+    },
+    {
+      arabic: {
+        ف: 'و',
+        ع: 'ع',
+        ل: 'د',
+      },
+      english: 'threaten',
+      transliterated: "tawa''ada",
+    },
   ],
   'صرف صغير': {
     مصدر: 'تَفَعُّلًا',
