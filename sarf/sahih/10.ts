@@ -48,6 +48,42 @@ const chapter: Chapter = {
       },
       transliterated: 'istamsaka',
     },
+    {
+      arabic: {
+        ف: 'ك',
+        ع: 'ب',
+        ل: 'ر',
+      },
+      english: 'act arrogantly',
+      transliterated: 'istakbara',
+    },
+    {
+      arabic: {
+        ف: 'ب',
+        ع: 'د',
+        ل: 'ل',
+      },
+      english: 'replace',
+      transliterated: 'istabdala',
+    },
+    {
+      arabic: {
+        ف: 'خ',
+        ع: 'ر',
+        ل: 'ج',
+      },
+      english: 'take out',
+      transliterated: 'istakhraja',
+    },
+    {
+      arabic: {
+        ف: 'ع',
+        ع: 'ج',
+        ل: 'ل',
+      },
+      english: 'hasten',
+      transliterated: "ista'jala",
+    },
   ],
   'صرف صغير': {
     مصدر: 'اسْتِفْعَالًا',

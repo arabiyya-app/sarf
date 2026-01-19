@@ -37,6 +37,63 @@ const chapter: Chapter = {
       english: 'boast',
       transliterated: 'tafaakhara',
     },
+    {
+      arabic: {
+        ف: 'ن',
+        ع: 'ف',
+        ل: 'س',
+      },
+      english: 'compete',
+      transliterated: 'tanaafasa',
+    },
+    {
+      arabic: {
+        ف: 'ش',
+        ع: 'ب',
+        ل: 'ه',
+      },
+      english: 'resemble one another',
+      transliterated: 'tashaabaha',
+    },
+    {
+      arabic: {
+        ف: 'ب',
+        ع: 'ر',
+        ل: 'ك',
+      },
+      english: {
+        base: 'blessed, praised',
+        prefixToBe: true,
+      },
+      transliterated: 'tabaaraka',
+    },
+    {
+      arabic: {
+        ف: 'ع',
+        ع: 'ر',
+        ل: 'ف',
+      },
+      english: 'know each other',
+      transliterated: "ta'aarafa",
+    },
+    {
+      arabic: {
+        ف: 'خ',
+        ع: 'ص',
+        ل: 'م',
+      },
+      english: 'quarrel, argue',
+      transliterated: 'takhaasama',
+    },
+    {
+      arabic: {
+        ف: 'ن',
+        ع: 'ز',
+        ل: 'ع',
+      },
+      english: 'contend with one another',
+      transliterated: "tanaaza'a",
+    },
   ],
   'صرف صغير': {
     مصدر: 'تَفَاعُلًا',

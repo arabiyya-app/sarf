@@ -47,6 +47,51 @@ const chapter: Chapter = {
       },
       transliterated: 'sakkhana',
     },
+    {
+      arabic: {
+        ف: 'ص',
+        ع: 'د',
+        ل: 'ق',
+      },
+      english: 'believe',
+      transliterated: 'saddaqa',
+    },
+    {
+      arabic: {
+        ف: 'ن',
+        ع: 'ز',
+        ل: 'ل',
+      },
+      english: 'reveal, send down',
+      transliterated: 'nazzala',
+    },
+    {
+      arabic: {
+        ف: 'ع',
+        ع: 'ل',
+        ل: 'م',
+      },
+      english: 'teach',
+      transliterated: "'allama",
+    },
+    {
+      arabic: {
+        ف: 'ع',
+        ع: 'ذ',
+        ل: 'ب',
+      },
+      english: 'punish',
+      transliterated: "'adhdhaba",
+    },
+    {
+      arabic: {
+        ف: 'ق',
+        ع: 'د',
+        ل: 'م',
+      },
+      english: 'put forth',
+      transliterated: 'qaddama',
+    },
   ],
   'صرف صغير': {
     مصدر: 'تَفْعِيْلًا',

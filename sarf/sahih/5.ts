@@ -37,6 +37,42 @@ const chapter: Chapter = {
       english: 'accept',
       transliterated: 'taqabbala',
     },
+    {
+      arabic: {
+        ف: 'ك',
+        ع: 'ل',
+        ل: 'م',
+      },
+      english: 'talk',
+      transliterated: 'takallama',
+    },
+    {
+      arabic: {
+        ف: 'ب',
+        ع: 'س',
+        ل: 'م',
+      },
+      english: 'smile',
+      transliterated: 'tabassama',
+    },
+    {
+      arabic: {
+        ف: 'ع',
+        ع: 'ل',
+        ل: 'م',
+      },
+      english: 'learn',
+      transliterated: "ta'allama",
+    },
+    {
+      arabic: {
+        ف: 'ص',
+        ع: 'د',
+        ل: 'ق',
+      },
+      english: 'donate',
+      transliterated: 'tasaddaqa',
+    },
   ],
   'صرف صغير': {
     مصدر: 'تَفَعُّلًا',
